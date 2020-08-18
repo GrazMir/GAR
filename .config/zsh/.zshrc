@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Basic settings
-source aliases
+source $ZDOTDIR/aliases
 
 # Enable colors
 autoload -Uz colors && colors

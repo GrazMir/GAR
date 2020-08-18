@@ -493,3 +493,8 @@ X Protocol Version 11, Revision 0
 [  5416.363] (EE) client bug: timer event19 debounce: scheduled expiry is in the past (-4ms), your system is too slow
 [  5416.363] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-17ms), your system is too slow
 [  5420.663] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-11ms), your system is too slow
+[ 12702.952] (EE) client bug: timer event19 debounce: scheduled expiry is in the past (-8ms), your system is too slow
+[ 12702.952] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-21ms), your system is too slow
+[ 13293.066] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-1ms), your system is too slow
+[ 13440.029] (EE) client bug: timer event19 debounce: scheduled expiry is in the past (-4ms), your system is too slow
+[ 13440.029] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-17ms), your system is too slow
