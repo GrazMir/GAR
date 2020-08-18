@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Cleanflight - Configurator
+Exec=chromium --profile-directory=Default --app-id=enacoimjcgeinfnnnpajinjgmkahmfgb
+Icon=chrome-enacoimjcgeinfnnnpajinjgmkahmfgb-Default
+StartupWMClass=crx_enacoimjcgeinfnnnpajinjgmkahmfgb

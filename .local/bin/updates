@@ -1,0 +1,10 @@
+#! /bin/zsh
+
+echo "Updating Arch ..."
+echo ""
+sudo pacman -Suy
+
+echo ""
+echo "Updating Community ..."
+echo ""
+yay -Suy
