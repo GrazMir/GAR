@@ -498,3 +498,16 @@ X Protocol Version 11, Revision 0
 [ 13293.066] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-1ms), your system is too slow
 [ 13440.029] (EE) client bug: timer event19 debounce: scheduled expiry is in the past (-4ms), your system is too slow
 [ 13440.029] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-17ms), your system is too slow
+[ 22244.463] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-5ms), your system is too slow
+[ 22496.755] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[ 22496.870] (II) event19 - Logitech MX Ergo: SYN_DROPPED event - some input events have been lost.
+[ 22496.882] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[ 22605.551] (EE) client bug: timer event19 debounce: scheduled expiry is in the past (-4ms), your system is too slow
+[ 22605.551] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-17ms), your system is too slow
+[ 23137.457] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-0ms), your system is too slow
+[ 23196.581] (EE) client bug: timer event19 debounce: scheduled expiry is in the past (-14ms), your system is too slow
+[ 23196.581] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-27ms), your system is too slow
+[ 23685.350] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-2ms), your system is too slow
+[ 23711.303] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-10ms), your system is too slow
+[ 23722.849] (EE) client bug: timer event19 debounce: scheduled expiry is in the past (-9ms), your system is too slow
+[ 23722.849] (EE) client bug: timer event19 debounce short: scheduled expiry is in the past (-22ms), your system is too slow
