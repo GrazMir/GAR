@@ -1,8 +1,16 @@
 #! /bin/zsh
 
+# ls based 
 alias ll="ls -l"
 alias la="ls -la"
 alias ..="cd .."
 
+
+# git alias
 alias gs="git status"
 alias ga="git add"
+alias gp="git push -u origin master"
+
+gc(){
+    git commit -m $1
+}
