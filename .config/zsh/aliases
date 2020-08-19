@@ -14,3 +14,7 @@ alias gp="git push -u origin master"
 gc(){
     git commit -m $1
 }
+
+gacp(){
+    ga . && gc $1 && gp
+}
