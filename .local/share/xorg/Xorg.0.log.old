@@ -1,643 +1,471 @@
-[   204.159] (WW) Failed to open protocol names file lib/xorg/protocol.txt
-[   204.160] 
+[   506.425] (WW) Failed to open protocol names file lib/xorg/protocol.txt
+[   506.430] 
 X.Org X Server 1.20.8
 X Protocol Version 11, Revision 0
-[   204.160] Build Operating System: Linux Arch Linux
-[   204.160] Current Operating System: Linux x1 5.8.1-arch1-1 #1 SMP PREEMPT Wed, 12 Aug 2020 18:50:43 +0000 x86_64
-[   204.160] Kernel command line: BOOT_IMAGE=/vmlinuz-linux root=UUID=e2f31134-c7fd-48fc-a8b4-1071965da859 rw cryptdevice=UUID=babc896d-b8d8-487a-9747-a730fa181e2d:cryptroot root=/dev/mapper/cryptroot loglevel=3 quiet
-[   204.161] Build Date: 31 July 2020  04:00:57PM
-[   204.161]  
-[   204.161] Current version of pixman: 0.40.0
-[   204.161] 	Before reporting problems, check http://wiki.x.org
+[   506.441] Build Operating System: Linux Arch Linux
+[   506.443] Current Operating System: Linux x1 5.8.1-arch1-1 #1 SMP PREEMPT Wed, 12 Aug 2020 18:50:43 +0000 x86_64
+[   506.443] Kernel command line: BOOT_IMAGE=/vmlinuz-linux root=UUID=e2f31134-c7fd-48fc-a8b4-1071965da859 rw cryptdevice=UUID=babc896d-b8d8-487a-9747-a730fa181e2d:cryptroot root=/dev/mapper/cryptroot loglevel=3 quiet
+[   506.446] Build Date: 31 July 2020  04:00:57PM
+[   506.448]  
+[   506.451] Current version of pixman: 0.40.0
+[   506.456] 	Before reporting problems, check http://wiki.x.org
 	to make sure that you have the latest version.
-[   204.161] Markers: (--) probed, (**) from config file, (==) default setting,
+[   506.456] Markers: (--) probed, (**) from config file, (==) default setting,
 	(++) from command line, (!!) notice, (II) informational,
 	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
-[   204.162] (==) Log file: "/home/graz/.local/share/xorg/Xorg.0.log", Time: Wed Aug 19 12:15:07 2020
-[   204.164] (==) Using config directory: "/etc/X11/xorg.conf.d"
-[   204.164] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
-[   204.166] (==) No Layout section.  Using the first Screen section.
-[   204.166] (==) No screen section available. Using defaults.
-[   204.166] (**) |-->Screen "Default Screen Section" (0)
-[   204.166] (**) |   |-->Monitor "<default monitor>"
-[   204.166] (==) No monitor specified for screen "Default Screen Section".
+[   506.463] (==) Log file: "/home/graz/.local/share/xorg/Xorg.0.log", Time: Wed Aug 19 16:50:00 2020
+[   506.467] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[   506.468] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   506.471] (==) No Layout section.  Using the first Screen section.
+[   506.471] (==) No screen section available. Using defaults.
+[   506.471] (**) |-->Screen "Default Screen Section" (0)
+[   506.471] (**) |   |-->Monitor "<default monitor>"
+[   506.471] (==) No monitor specified for screen "Default Screen Section".
 	Using a default monitor configuration.
-[   204.166] (==) Automatically adding devices
-[   204.166] (==) Automatically enabling devices
-[   204.166] (==) Automatically adding GPU devices
-[   204.166] (==) Automatically binding GPU devices
-[   204.166] (==) Max clients allowed: 256, resource mask: 0x1fffff
-[   204.169] (WW) The directory "/usr/share/fonts/OTF" does not exist.
-[   204.169] 	Entry deleted from font path.
-[   204.169] (WW) The directory "/usr/share/fonts/Type1" does not exist.
-[   204.169] 	Entry deleted from font path.
-[   204.169] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
-[   204.169] 	Entry deleted from font path.
-[   204.169] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
-[   204.169] 	Entry deleted from font path.
-[   204.169] (==) FontPath set to:
+[   506.471] (==) Automatically adding devices
+[   506.471] (==) Automatically enabling devices
+[   506.471] (==) Automatically adding GPU devices
+[   506.471] (==) Automatically binding GPU devices
+[   506.471] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   506.475] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[   506.475] 	Entry deleted from font path.
+[   506.475] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[   506.475] 	Entry deleted from font path.
+[   506.475] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[   506.475] 	Entry deleted from font path.
+[   506.475] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[   506.475] 	Entry deleted from font path.
+[   506.475] (==) FontPath set to:
 	/usr/share/fonts/misc,
 	/usr/share/fonts/TTF
-[   204.169] (==) ModulePath set to "/usr/lib/xorg/modules"
-[   204.169] (II) The server relies on udev to provide the list of input devices.
+[   506.475] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   506.475] (II) The server relies on udev to provide the list of input devices.
 	If no devices become available, reconfigure udev or disable AutoAddDevices.
-[   204.169] (II) Module ABI versions:
-[   204.169] 	X.Org ANSI C Emulation: 0.4
-[   204.169] 	X.Org Video Driver: 24.1
-[   204.169] 	X.Org XInput driver : 24.1
-[   204.169] 	X.Org Server Extension : 10.0
-[   204.171] (++) using VT number 1
+[   506.475] (II) Module ABI versions:
+[   506.475] 	X.Org ANSI C Emulation: 0.4
+[   506.475] 	X.Org Video Driver: 24.1
+[   506.475] 	X.Org XInput driver : 24.1
+[   506.475] 	X.Org Server Extension : 10.0
+[   506.476] (++) using VT number 1
 
-[   204.175] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
-[   204.176] (II) xfree86: Adding drm device (/dev/dri/card0)
-[   204.178] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 10 paused 0
-[   204.184] (--) PCI:*(0@0:2:0) 8086:5917:17aa:225c rev 7, Mem @ 0x2ffa000000/16777216, 0x2fa0000000/268435456, I/O @ 0x0000e000/64, BIOS @ 0x????????/131072
-[   204.184] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
-[   204.184] (II) LoadModule: "glx"
-[   204.186] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
-[   204.200] (II) Module glx: vendor="X.Org Foundation"
-[   204.200] 	compiled for 1.20.8, module version = 1.0.0
-[   204.200] 	ABI class: X.Org Server Extension, version 10.0
-[   204.200] (==) Matched intel as autoconfigured driver 0
-[   204.200] (==) Matched modesetting as autoconfigured driver 1
-[   204.200] (==) Matched fbdev as autoconfigured driver 2
-[   204.200] (==) Matched vesa as autoconfigured driver 3
-[   204.200] (==) Assigned the driver to the xf86ConfigLayout
-[   204.200] (II) LoadModule: "intel"
-[   204.200] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
-[   204.205] (II) Module intel: vendor="X.Org Foundation"
-[   204.205] 	compiled for 1.20.8, module version = 2.99.917
-[   204.205] 	Module class: X.Org Video Driver
-[   204.205] 	ABI class: X.Org Video Driver, version 24.1
-[   204.205] (II) LoadModule: "modesetting"
-[   204.205] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
-[   204.209] (II) Module modesetting: vendor="X.Org Foundation"
-[   204.209] 	compiled for 1.20.8, module version = 1.20.8
-[   204.209] 	Module class: X.Org Video Driver
-[   204.209] 	ABI class: X.Org Video Driver, version 24.1
-[   204.209] (II) LoadModule: "fbdev"
-[   204.210] (WW) Warning, couldn't open module fbdev
-[   204.210] (EE) Failed to load module "fbdev" (module does not exist, 0)
-[   204.210] (II) LoadModule: "vesa"
-[   204.210] (WW) Warning, couldn't open module vesa
-[   204.210] (EE) Failed to load module "vesa" (module does not exist, 0)
-[   204.210] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+[   506.477] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[   506.478] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   506.478] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 10 paused 0
+[   506.480] (--) PCI:*(0@0:2:0) 8086:5917:17aa:225c rev 7, Mem @ 0x2ffa000000/16777216, 0x2fa0000000/268435456, I/O @ 0x0000e000/64, BIOS @ 0x????????/131072
+[   506.480] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[   506.480] (II) LoadModule: "glx"
+[   506.482] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   506.490] (II) Module glx: vendor="X.Org Foundation"
+[   506.490] 	compiled for 1.20.8, module version = 1.0.0
+[   506.490] 	ABI class: X.Org Server Extension, version 10.0
+[   506.490] (==) Matched intel as autoconfigured driver 0
+[   506.490] (==) Matched modesetting as autoconfigured driver 1
+[   506.490] (==) Matched fbdev as autoconfigured driver 2
+[   506.490] (==) Matched vesa as autoconfigured driver 3
+[   506.490] (==) Assigned the driver to the xf86ConfigLayout
+[   506.490] (II) LoadModule: "intel"
+[   506.490] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[   506.495] (II) Module intel: vendor="X.Org Foundation"
+[   506.495] 	compiled for 1.20.8, module version = 2.99.917
+[   506.495] 	Module class: X.Org Video Driver
+[   506.495] 	ABI class: X.Org Video Driver, version 24.1
+[   506.495] (II) LoadModule: "modesetting"
+[   506.495] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[   506.498] (II) Module modesetting: vendor="X.Org Foundation"
+[   506.498] 	compiled for 1.20.8, module version = 1.20.8
+[   506.498] 	Module class: X.Org Video Driver
+[   506.498] 	ABI class: X.Org Video Driver, version 24.1
+[   506.498] (II) LoadModule: "fbdev"
+[   506.498] (WW) Warning, couldn't open module fbdev
+[   506.498] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[   506.498] (II) LoadModule: "vesa"
+[   506.498] (WW) Warning, couldn't open module vesa
+[   506.498] (EE) Failed to load module "vesa" (module does not exist, 0)
+[   506.498] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
 	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
 	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
 	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
 	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
-[   204.210] (II) intel: Driver for Intel(R) HD Graphics
-[   204.210] (II) intel: Driver for Intel(R) Iris(TM) Graphics
-[   204.210] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
-[   204.210] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
-[   204.210] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
-[   204.211] (II) intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20200515
-[   204.211] (II) intel(0): SNA compiled from 2.99.917-908-g7181c5a4
-[   204.229] (WW) Falling back to old probe method for modesetting
-[   204.229] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
-[   204.231] (--) intel(0): gen9 engineering sample
-[   204.231] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3, sse4.1, sse4.2, avx, avx2; using a maximum of 4 threads
-[   204.231] (II) intel(0): Creating default Display subsection in Screen section
+[   506.499] (II) intel: Driver for Intel(R) HD Graphics
+[   506.499] (II) intel: Driver for Intel(R) Iris(TM) Graphics
+[   506.499] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
+[   506.499] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[   506.499] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[   506.499] (II) intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20200515
+[   506.499] (II) intel(0): SNA compiled from 2.99.917-908-g7181c5a4
+[   506.515] (WW) Falling back to old probe method for modesetting
+[   506.515] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[   506.516] (--) intel(0): gen9 engineering sample
+[   506.516] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3, sse4.1, sse4.2, avx, avx2; using a maximum of 4 threads
+[   506.516] (II) intel(0): Creating default Display subsection in Screen section
 	"Default Screen Section" for depth/fbbpp 24/32
-[   204.231] (==) intel(0): Depth 24, (--) framebuffer bpp 32
-[   204.231] (==) intel(0): RGB weight 888
-[   204.231] (==) intel(0): Default visual is TrueColor
-[   204.233] (II) intel(0): Output eDP1 has no monitor section
-[   204.234] (**) intel(0): Found backlight control interface intel_backlight (type 'raw') for output eDP1
-[   204.234] (II) intel(0): Enabled output eDP1
-[   204.234] (II) intel(0): Output DP1 has no monitor section
-[   204.235] (II) intel(0): Enabled output DP1
-[   204.235] (II) intel(0): Output HDMI1 has no monitor section
-[   204.235] (II) intel(0): Enabled output HDMI1
-[   204.235] (II) intel(0): Output DP2 has no monitor section
-[   204.235] (II) intel(0): Enabled output DP2
-[   204.235] (II) intel(0): Output HDMI2 has no monitor section
-[   204.236] (II) intel(0): Enabled output HDMI2
-[   204.236] (--) intel(0): Using a maximum size of 256x256 for hardware cursors
-[   204.236] (II) intel(0): Output VIRTUAL1 has no monitor section
-[   204.236] (II) intel(0): Enabled output VIRTUAL1
-[   204.236] (--) intel(0): Output eDP1 using initial mode 1920x1080 on pipe 0
-[   204.236] (--) intel(0): Output HDMI1 using initial mode 1920x1080 on pipe 1
-[   204.236] (==) intel(0): TearFree disabled
-[   204.237] (==) intel(0): Using gamma correction (1.0, 1.0, 1.0)
-[   204.237] (==) intel(0): DPI set to (96, 96)
-[   204.237] (II) Loading sub module "dri3"
-[   204.237] (II) LoadModule: "dri3"
-[   204.237] (II) Module "dri3" already built-in
-[   204.237] (II) Loading sub module "dri2"
-[   204.237] (II) LoadModule: "dri2"
-[   204.237] (II) Module "dri2" already built-in
-[   204.237] (II) Loading sub module "present"
-[   204.237] (II) LoadModule: "present"
-[   204.237] (II) Module "present" already built-in
-[   204.237] (II) UnloadModule: "modesetting"
-[   204.237] (II) Unloading modesetting
-[   204.242] (II) intel(0): SNA initialized with Kabylake (gen9) backend
-[   204.242] (==) intel(0): Backing store enabled
-[   204.242] (==) intel(0): Silken mouse disabled
-[   204.242] (II) intel(0): HW Cursor enabled
-[   204.244] (==) intel(0): DPMS enabled
-[   204.244] (==) intel(0): Display hotplug detection enabled
-[   204.245] (II) intel(0): [DRI2] Setup complete
-[   204.245] (II) intel(0): [DRI2]   DRI driver: i965
-[   204.245] (II) intel(0): [DRI2]   VDPAU driver: va_gl
-[   204.245] (II) intel(0): direct rendering: DRI2 DRI3 enabled
-[   204.245] (II) intel(0): hardware support for Present enabled
-[   204.245] (II) Initializing extension Generic Event Extension
-[   204.245] (II) Initializing extension SHAPE
-[   204.245] (II) Initializing extension MIT-SHM
-[   204.245] (II) Initializing extension XInputExtension
-[   204.246] (II) Initializing extension XTEST
-[   204.246] (II) Initializing extension BIG-REQUESTS
-[   204.246] (II) Initializing extension SYNC
-[   204.246] (II) Initializing extension XKEYBOARD
-[   204.247] (II) Initializing extension XC-MISC
-[   204.247] (II) Initializing extension SECURITY
-[   204.247] (II) Initializing extension XFIXES
-[   204.247] (II) Initializing extension RENDER
-[   204.247] (II) Initializing extension RANDR
-[   204.247] (II) Initializing extension COMPOSITE
-[   204.248] (II) Initializing extension DAMAGE
-[   204.248] (II) Initializing extension MIT-SCREEN-SAVER
-[   204.248] (II) Initializing extension DOUBLE-BUFFER
-[   204.248] (II) Initializing extension RECORD
-[   204.248] (II) Initializing extension DPMS
-[   204.248] (II) Initializing extension Present
-[   204.248] (II) Initializing extension DRI3
-[   204.248] (II) Initializing extension X-Resource
-[   204.248] (II) Initializing extension XVideo
-[   204.248] (II) Initializing extension XVideo-MotionCompensation
-[   204.248] (II) Initializing extension GLX
-[   204.308] (II) AIGLX: Loaded and initialized i965
-[   204.308] (II) GLX: Initialized DRI2 GL provider for screen 0
-[   204.308] (II) Initializing extension XFree86-VidModeExtension
-[   204.308] (II) Initializing extension XFree86-DGA
-[   204.308] (II) Initializing extension XFree86-DRI
-[   204.308] (II) Initializing extension DRI2
-[   204.317] (II) intel(0): switch to mode 1920x1080@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
-[   204.340] (II) intel(0): switch to mode 1920x1080@60.0 on HDMI1 using pipe 1, position (0, 0), rotation normal, reflection none
-[   204.353] (II) intel(0): Setting screen physical size to 508 x 285
-[   204.539] (II) config/udev: Adding input device Power Button (/dev/input/event2)
-[   204.539] (**) Power Button: Applying InputClass "libinput keyboard catchall"
-[   204.539] (II) LoadModule: "libinput"
-[   204.540] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
-[   204.545] (II) Module libinput: vendor="X.Org Foundation"
-[   204.545] 	compiled for 1.20.8, module version = 0.30.0
-[   204.545] 	Module class: X.Org XInput Driver
-[   204.545] 	ABI class: X.Org XInput driver, version 24.1
-[   204.545] (II) Using input driver 'libinput' for 'Power Button'
-[   204.546] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 16 paused 0
-[   204.546] (**) Power Button: always reports core events
-[   204.546] (**) Option "Device" "/dev/input/event2"
-[   204.546] (**) Option "_source" "server/udev"
-[   204.555] (II) event2  - Power Button: is tagged by udev as: Keyboard
-[   204.555] (II) event2  - Power Button: device is a keyboard
-[   204.555] (II) event2  - Power Button: device removed
-[   204.555] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
-[   204.556] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
-[   204.557] (II) event2  - Power Button: is tagged by udev as: Keyboard
-[   204.557] (II) event2  - Power Button: device is a keyboard
-[   204.558] (II) config/udev: Adding input device Video Bus (/dev/input/event9)
-[   204.558] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
-[   204.558] (II) Using input driver 'libinput' for 'Video Bus'
-[   204.560] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 19 paused 0
-[   204.560] (**) Video Bus: always reports core events
-[   204.560] (**) Option "Device" "/dev/input/event9"
-[   204.560] (**) Option "_source" "server/udev"
-[   204.562] (II) event9  - Video Bus: is tagged by udev as: Keyboard
-[   204.562] (II) event9  - Video Bus: device is a keyboard
-[   204.562] (II) event9  - Video Bus: device removed
-[   204.562] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input23/event9"
-[   204.562] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
-[   204.564] (II) event9  - Video Bus: is tagged by udev as: Keyboard
-[   204.564] (II) event9  - Video Bus: device is a keyboard
-[   204.565] (II) config/udev: Adding input device Lid Switch (/dev/input/event1)
-[   204.565] (II) No input driver specified, ignoring this device.
-[   204.565] (II) This device may have been added with another device file.
-[   204.566] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
-[   204.566] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
-[   204.566] (II) Using input driver 'libinput' for 'Sleep Button'
-[   204.566] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 20 paused 0
-[   204.566] (**) Sleep Button: always reports core events
-[   204.566] (**) Option "Device" "/dev/input/event0"
-[   204.566] (**) Option "_source" "server/udev"
-[   204.567] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
-[   204.567] (II) event0  - Sleep Button: device is a keyboard
-[   204.567] (II) event0  - Sleep Button: device removed
-[   204.567] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
-[   204.567] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 8)
-[   204.568] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
-[   204.568] (II) event0  - Sleep Button: device is a keyboard
-[   204.569] (II) config/udev: Adding input device Topre Corporation HHKB Professional (/dev/input/event4)
-[   204.569] (**) Topre Corporation HHKB Professional: Applying InputClass "libinput keyboard catchall"
-[   204.569] (II) Using input driver 'libinput' for 'Topre Corporation HHKB Professional'
-[   204.569] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 21 paused 0
-[   204.569] (**) Topre Corporation HHKB Professional: always reports core events
-[   204.569] (**) Option "Device" "/dev/input/event4"
-[   204.569] (**) Option "_source" "server/udev"
-[   204.571] (II) event4  - Topre Corporation HHKB Professional: is tagged by udev as: Keyboard
-[   204.571] (II) event4  - Topre Corporation HHKB Professional: device is a keyboard
-[   204.571] (II) event4  - Topre Corporation HHKB Professional: device removed
-[   204.571] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:0853:0100.0001/input/input5/event4"
-[   204.571] (II) XINPUT: Adding extended input device "Topre Corporation HHKB Professional" (type: KEYBOARD, id 9)
-[   204.572] (II) event4  - Topre Corporation HHKB Professional: is tagged by udev as: Keyboard
-[   204.572] (II) event4  - Topre Corporation HHKB Professional: device is a keyboard
-[   204.573] (II) config/udev: Adding input device Logitech MX Ergo (/dev/input/event5)
-[   204.573] (**) Logitech MX Ergo: Applying InputClass "libinput pointer catchall"
-[   204.573] (**) Logitech MX Ergo: Applying InputClass "libinput keyboard catchall"
-[   204.573] (II) Using input driver 'libinput' for 'Logitech MX Ergo'
-[   204.574] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 22 paused 0
-[   204.574] (**) Logitech MX Ergo: always reports core events
-[   204.574] (**) Option "Device" "/dev/input/event5"
-[   204.574] (**) Option "_source" "server/udev"
-[   204.575] (II) event5  - Logitech MX Ergo: is tagged by udev as: Keyboard Mouse
-[   204.575] (II) event5  - Logitech MX Ergo: device is a pointer
-[   204.575] (II) event5  - Logitech MX Ergo: device is a keyboard
-[   204.576] (II) event5  - Logitech MX Ergo: device removed
-[   204.576] (II) libinput: Logitech MX Ergo: needs a virtual subdevice
-[   204.576] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0004/0003:046D:406F.0005/input/input18/event5"
-[   204.576] (II) XINPUT: Adding extended input device "Logitech MX Ergo" (type: MOUSE, id 10)
-[   204.576] (**) Option "AccelerationScheme" "none"
-[   204.576] (**) Logitech MX Ergo: (accel) selected scheme none/0
-[   204.576] (**) Logitech MX Ergo: (accel) acceleration factor: 2.000
-[   204.576] (**) Logitech MX Ergo: (accel) acceleration threshold: 4
-[   204.577] (II) event5  - Logitech MX Ergo: is tagged by udev as: Keyboard Mouse
-[   204.577] (II) event5  - Logitech MX Ergo: device is a pointer
-[   204.577] (II) event5  - Logitech MX Ergo: device is a keyboard
-[   204.578] (II) config/udev: Adding input device Logitech MX Ergo (/dev/input/mouse0)
-[   204.578] (II) No input driver specified, ignoring this device.
-[   204.578] (II) This device may have been added with another device file.
-[   204.579] (II) config/udev: Adding input device Integrated Camera: Integrated C (/dev/input/event8)
-[   204.579] (**) Integrated Camera: Integrated C: Applying InputClass "libinput keyboard catchall"
-[   204.579] (II) Using input driver 'libinput' for 'Integrated Camera: Integrated C'
-[   204.579] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 23 paused 0
-[   204.579] (**) Integrated Camera: Integrated C: always reports core events
-[   204.579] (**) Option "Device" "/dev/input/event8"
-[   204.579] (**) Option "_source" "server/udev"
-[   204.580] (II) event8  - Integrated Camera: Integrated C: is tagged by udev as: Keyboard
-[   204.580] (II) event8  - Integrated Camera: Integrated C: device is a keyboard
-[   204.580] (II) event8  - Integrated Camera: Integrated C: device removed
-[   204.580] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/input/input22/event8"
-[   204.580] (II) XINPUT: Adding extended input device "Integrated Camera: Integrated C" (type: KEYBOARD, id 11)
-[   204.581] (II) event8  - Integrated Camera: Integrated C: is tagged by udev as: Keyboard
-[   204.581] (II) event8  - Integrated Camera: Integrated C: device is a keyboard
-[   204.582] (II) config/udev: Adding input device HDA Digital PCBeep (/dev/input/event12)
-[   204.582] (II) No input driver specified, ignoring this device.
-[   204.582] (II) This device may have been added with another device file.
-[   204.582] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event13)
-[   204.582] (II) No input driver specified, ignoring this device.
-[   204.582] (II) This device may have been added with another device file.
-[   204.582] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event14)
-[   204.582] (II) No input driver specified, ignoring this device.
-[   204.582] (II) This device may have been added with another device file.
-[   204.583] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event15)
-[   204.583] (II) No input driver specified, ignoring this device.
-[   204.583] (II) This device may have been added with another device file.
-[   204.583] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event16)
-[   204.583] (II) No input driver specified, ignoring this device.
-[   204.583] (II) This device may have been added with another device file.
-[   204.583] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event17)
-[   204.583] (II) No input driver specified, ignoring this device.
-[   204.583] (II) This device may have been added with another device file.
-[   204.583] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=9 (/dev/input/event18)
-[   204.583] (II) No input driver specified, ignoring this device.
-[   204.583] (II) This device may have been added with another device file.
-[   204.584] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=10 (/dev/input/event19)
-[   204.584] (II) No input driver specified, ignoring this device.
-[   204.584] (II) This device may have been added with another device file.
-[   204.584] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
-[   204.584] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
-[   204.584] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
-[   204.585] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 24 paused 0
-[   204.585] (**) AT Translated Set 2 keyboard: always reports core events
-[   204.585] (**) Option "Device" "/dev/input/event3"
-[   204.585] (**) Option "_source" "server/udev"
-[   204.585] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
-[   204.586] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
-[   204.586] (II) event3  - AT Translated Set 2 keyboard: device removed
-[   204.586] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input3/event3"
-[   204.586] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 12)
-[   204.587] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
-[   204.587] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
-[   204.588] (II) config/udev: Adding input device PC Speaker (/dev/input/event7)
-[   204.588] (II) No input driver specified, ignoring this device.
-[   204.588] (II) This device may have been added with another device file.
-[   204.588] (II) config/udev: Adding input device ThinkPad Extra Buttons (/dev/input/event6)
-[   204.588] (**) ThinkPad Extra Buttons: Applying InputClass "libinput keyboard catchall"
-[   204.588] (II) Using input driver 'libinput' for 'ThinkPad Extra Buttons'
-[   204.589] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 25 paused 0
-[   204.589] (**) ThinkPad Extra Buttons: always reports core events
-[   204.589] (**) Option "Device" "/dev/input/event6"
-[   204.589] (**) Option "_source" "server/udev"
-[   204.590] (II) event6  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
-[   204.590] (II) event6  - ThinkPad Extra Buttons: device is a keyboard
-[   204.590] (II) event6  - ThinkPad Extra Buttons: device removed
-[   204.590] (**) Option "config_info" "udev:/sys/devices/platform/thinkpad_acpi/input/input19/event6"
-[   204.590] (II) XINPUT: Adding extended input device "ThinkPad Extra Buttons" (type: KEYBOARD, id 13)
-[   204.590] (II) event6  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
-[   204.591] (II) event6  - ThinkPad Extra Buttons: device is a keyboard
-[   204.591] (II) config/udev: Adding input device Synaptics TM3289-021 (/dev/input/event10)
-[   204.591] (**) Synaptics TM3289-021: Applying InputClass "libinput touchpad catchall"
-[   204.591] (**) Synaptics TM3289-021: Applying InputClass "touchpad"
-[   204.591] (II) Using input driver 'libinput' for 'Synaptics TM3289-021'
-[   204.591] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 26 paused 0
-[   204.591] (**) Synaptics TM3289-021: always reports core events
-[   204.591] (**) Option "Device" "/dev/input/event10"
-[   204.591] (**) Option "_source" "server/udev"
-[   204.592] (II) event10 - Synaptics TM3289-021: is tagged by udev as: Touchpad
-[   204.593] (II) event10 - Synaptics TM3289-021: device is a touchpad
-[   204.593] (II) event10 - Synaptics TM3289-021: device removed
-[   204.593] (**) Option "Tapping" "on"
-[   204.593] (**) Option "TappingButtonMap" "lrm"
-[   204.593] (**) Option "config_info" "udev:/sys/devices/rmi4-00/input/input24/event10"
-[   204.593] (II) XINPUT: Adding extended input device "Synaptics TM3289-021" (type: TOUCHPAD, id 14)
-[   204.594] (**) Option "AccelerationScheme" "none"
-[   204.594] (**) Synaptics TM3289-021: (accel) selected scheme none/0
-[   204.594] (**) Synaptics TM3289-021: (accel) acceleration factor: 2.000
-[   204.594] (**) Synaptics TM3289-021: (accel) acceleration threshold: 4
-[   204.595] (II) event10 - Synaptics TM3289-021: is tagged by udev as: Touchpad
-[   204.596] (II) event10 - Synaptics TM3289-021: device is a touchpad
-[   204.596] (II) config/udev: Adding input device Synaptics TM3289-021 (/dev/input/mouse1)
-[   204.596] (**) Synaptics TM3289-021: Applying InputClass "touchpad"
-[   204.596] (II) Using input driver 'libinput' for 'Synaptics TM3289-021'
-[   204.596] (**) Synaptics TM3289-021: always reports core events
-[   204.596] (**) Option "Device" "/dev/input/mouse1"
-[   204.596] (**) Option "_source" "server/udev"
-[   204.596] (EE) xf86OpenSerial: Cannot open device /dev/input/mouse1
+[   506.516] (==) intel(0): Depth 24, (--) framebuffer bpp 32
+[   506.516] (==) intel(0): RGB weight 888
+[   506.516] (==) intel(0): Default visual is TrueColor
+[   506.517] (II) intel(0): Output eDP1 has no monitor section
+[   506.518] (**) intel(0): Found backlight control interface intel_backlight (type 'raw') for output eDP1
+[   506.518] (II) intel(0): Enabled output eDP1
+[   506.518] (II) intel(0): Output DP1 has no monitor section
+[   506.518] (II) intel(0): Enabled output DP1
+[   506.518] (II) intel(0): Output HDMI1 has no monitor section
+[   506.518] (II) intel(0): Enabled output HDMI1
+[   506.518] (II) intel(0): Output DP2 has no monitor section
+[   506.519] (II) intel(0): Enabled output DP2
+[   506.519] (II) intel(0): Output HDMI2 has no monitor section
+[   506.519] (II) intel(0): Enabled output HDMI2
+[   506.519] (--) intel(0): Using a maximum size of 256x256 for hardware cursors
+[   506.519] (II) intel(0): Output VIRTUAL1 has no monitor section
+[   506.519] (II) intel(0): Enabled output VIRTUAL1
+[   506.519] (--) intel(0): Output eDP1 using initial mode 1920x1080 on pipe 0
+[   506.519] (--) intel(0): Output HDMI1 using initial mode 1920x1080 on pipe 1
+[   506.519] (==) intel(0): TearFree disabled
+[   506.519] (==) intel(0): Using gamma correction (1.0, 1.0, 1.0)
+[   506.519] (==) intel(0): DPI set to (96, 96)
+[   506.519] (II) Loading sub module "dri3"
+[   506.519] (II) LoadModule: "dri3"
+[   506.519] (II) Module "dri3" already built-in
+[   506.519] (II) Loading sub module "dri2"
+[   506.519] (II) LoadModule: "dri2"
+[   506.519] (II) Module "dri2" already built-in
+[   506.519] (II) Loading sub module "present"
+[   506.519] (II) LoadModule: "present"
+[   506.519] (II) Module "present" already built-in
+[   506.519] (II) UnloadModule: "modesetting"
+[   506.519] (II) Unloading modesetting
+[   506.522] (II) intel(0): SNA initialized with Kabylake (gen9) backend
+[   506.522] (==) intel(0): Backing store enabled
+[   506.522] (==) intel(0): Silken mouse disabled
+[   506.522] (II) intel(0): HW Cursor enabled
+[   506.523] (==) intel(0): DPMS enabled
+[   506.523] (==) intel(0): Display hotplug detection enabled
+[   506.523] (II) intel(0): [DRI2] Setup complete
+[   506.523] (II) intel(0): [DRI2]   DRI driver: i965
+[   506.523] (II) intel(0): [DRI2]   VDPAU driver: va_gl
+[   506.523] (II) intel(0): direct rendering: DRI2 DRI3 enabled
+[   506.523] (II) intel(0): hardware support for Present enabled
+[   506.523] (II) Initializing extension Generic Event Extension
+[   506.523] (II) Initializing extension SHAPE
+[   506.523] (II) Initializing extension MIT-SHM
+[   506.523] (II) Initializing extension XInputExtension
+[   506.524] (II) Initializing extension XTEST
+[   506.524] (II) Initializing extension BIG-REQUESTS
+[   506.524] (II) Initializing extension SYNC
+[   506.524] (II) Initializing extension XKEYBOARD
+[   506.524] (II) Initializing extension XC-MISC
+[   506.524] (II) Initializing extension SECURITY
+[   506.524] (II) Initializing extension XFIXES
+[   506.524] (II) Initializing extension RENDER
+[   506.524] (II) Initializing extension RANDR
+[   506.524] (II) Initializing extension COMPOSITE
+[   506.524] (II) Initializing extension DAMAGE
+[   506.524] (II) Initializing extension MIT-SCREEN-SAVER
+[   506.524] (II) Initializing extension DOUBLE-BUFFER
+[   506.524] (II) Initializing extension RECORD
+[   506.524] (II) Initializing extension DPMS
+[   506.524] (II) Initializing extension Present
+[   506.524] (II) Initializing extension DRI3
+[   506.524] (II) Initializing extension X-Resource
+[   506.524] (II) Initializing extension XVideo
+[   506.524] (II) Initializing extension XVideo-MotionCompensation
+[   506.524] (II) Initializing extension GLX
+[   506.584] (II) AIGLX: Loaded and initialized i965
+[   506.584] (II) GLX: Initialized DRI2 GL provider for screen 0
+[   506.584] (II) Initializing extension XFree86-VidModeExtension
+[   506.584] (II) Initializing extension XFree86-DGA
+[   506.584] (II) Initializing extension XFree86-DRI
+[   506.584] (II) Initializing extension DRI2
+[   506.593] (II) intel(0): switch to mode 1920x1080@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none
+[   506.616] (II) intel(0): switch to mode 1920x1080@60.0 on HDMI1 using pipe 1, position (0, 0), rotation normal, reflection none
+[   506.630] (II) intel(0): Setting screen physical size to 508 x 285
+[   506.811] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[   506.811] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   506.811] (II) LoadModule: "libinput"
+[   506.812] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[   506.817] (II) Module libinput: vendor="X.Org Foundation"
+[   506.817] 	compiled for 1.20.8, module version = 0.30.0
+[   506.817] 	Module class: X.Org XInput Driver
+[   506.817] 	ABI class: X.Org XInput driver, version 24.1
+[   506.817] (II) Using input driver 'libinput' for 'Power Button'
+[   506.818] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 16 paused 0
+[   506.818] (**) Power Button: always reports core events
+[   506.818] (**) Option "Device" "/dev/input/event2"
+[   506.818] (**) Option "_source" "server/udev"
+[   506.826] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[   506.826] (II) event2  - Power Button: device is a keyboard
+[   506.826] (II) event2  - Power Button: device removed
+[   506.827] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[   506.827] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[   506.828] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[   506.828] (II) event2  - Power Button: device is a keyboard
+[   506.829] (II) config/udev: Adding input device Video Bus (/dev/input/event9)
+[   506.829] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[   506.829] (II) Using input driver 'libinput' for 'Video Bus'
+[   506.831] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 19 paused 0
+[   506.831] (**) Video Bus: always reports core events
+[   506.831] (**) Option "Device" "/dev/input/event9"
+[   506.831] (**) Option "_source" "server/udev"
+[   506.832] (II) event9  - Video Bus: is tagged by udev as: Keyboard
+[   506.832] (II) event9  - Video Bus: device is a keyboard
+[   506.832] (II) event9  - Video Bus: device removed
+[   506.832] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input23/event9"
+[   506.832] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[   506.834] (II) event9  - Video Bus: is tagged by udev as: Keyboard
+[   506.834] (II) event9  - Video Bus: device is a keyboard
+[   506.835] (II) config/udev: Adding input device Lid Switch (/dev/input/event1)
+[   506.835] (II) No input driver specified, ignoring this device.
+[   506.835] (II) This device may have been added with another device file.
+[   506.835] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
+[   506.835] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[   506.835] (II) Using input driver 'libinput' for 'Sleep Button'
+[   506.836] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 20 paused 0
+[   506.836] (**) Sleep Button: always reports core events
+[   506.836] (**) Option "Device" "/dev/input/event0"
+[   506.836] (**) Option "_source" "server/udev"
+[   506.837] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[   506.837] (II) event0  - Sleep Button: device is a keyboard
+[   506.837] (II) event0  - Sleep Button: device removed
+[   506.837] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
+[   506.837] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 8)
+[   506.838] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[   506.838] (II) event0  - Sleep Button: device is a keyboard
+[   506.839] (II) config/udev: Adding input device Topre Corporation HHKB Professional (/dev/input/event4)
+[   506.839] (**) Topre Corporation HHKB Professional: Applying InputClass "libinput keyboard catchall"
+[   506.839] (II) Using input driver 'libinput' for 'Topre Corporation HHKB Professional'
+[   506.840] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 21 paused 0
+[   506.840] (**) Topre Corporation HHKB Professional: always reports core events
+[   506.840] (**) Option "Device" "/dev/input/event4"
+[   506.840] (**) Option "_source" "server/udev"
+[   506.841] (II) event4  - Topre Corporation HHKB Professional: is tagged by udev as: Keyboard
+[   506.841] (II) event4  - Topre Corporation HHKB Professional: device is a keyboard
+[   506.841] (II) event4  - Topre Corporation HHKB Professional: device removed
+[   506.841] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:0853:0100.0001/input/input5/event4"
+[   506.841] (II) XINPUT: Adding extended input device "Topre Corporation HHKB Professional" (type: KEYBOARD, id 9)
+[   506.842] (II) event4  - Topre Corporation HHKB Professional: is tagged by udev as: Keyboard
+[   506.842] (II) event4  - Topre Corporation HHKB Professional: device is a keyboard
+[   506.843] (II) config/udev: Adding input device Logitech MX Ergo (/dev/input/event5)
+[   506.843] (**) Logitech MX Ergo: Applying InputClass "libinput pointer catchall"
+[   506.843] (**) Logitech MX Ergo: Applying InputClass "libinput keyboard catchall"
+[   506.843] (II) Using input driver 'libinput' for 'Logitech MX Ergo'
+[   506.844] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 22 paused 0
+[   506.844] (**) Logitech MX Ergo: always reports core events
+[   506.844] (**) Option "Device" "/dev/input/event5"
+[   506.844] (**) Option "_source" "server/udev"
+[   506.845] (II) event5  - Logitech MX Ergo: is tagged by udev as: Keyboard Mouse
+[   506.846] (II) event5  - Logitech MX Ergo: device is a pointer
+[   506.846] (II) event5  - Logitech MX Ergo: device is a keyboard
+[   506.846] (II) event5  - Logitech MX Ergo: device removed
+[   506.846] (II) libinput: Logitech MX Ergo: needs a virtual subdevice
+[   506.846] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0004/0003:046D:406F.0005/input/input18/event5"
+[   506.846] (II) XINPUT: Adding extended input device "Logitech MX Ergo" (type: MOUSE, id 10)
+[   506.846] (**) Option "AccelerationScheme" "none"
+[   506.846] (**) Logitech MX Ergo: (accel) selected scheme none/0
+[   506.846] (**) Logitech MX Ergo: (accel) acceleration factor: 2.000
+[   506.846] (**) Logitech MX Ergo: (accel) acceleration threshold: 4
+[   506.847] (II) event5  - Logitech MX Ergo: is tagged by udev as: Keyboard Mouse
+[   506.847] (II) event5  - Logitech MX Ergo: device is a pointer
+[   506.847] (II) event5  - Logitech MX Ergo: device is a keyboard
+[   506.848] (II) config/udev: Adding input device Logitech MX Ergo (/dev/input/mouse0)
+[   506.848] (II) No input driver specified, ignoring this device.
+[   506.848] (II) This device may have been added with another device file.
+[   506.849] (II) config/udev: Adding input device Integrated Camera: Integrated C (/dev/input/event8)
+[   506.849] (**) Integrated Camera: Integrated C: Applying InputClass "libinput keyboard catchall"
+[   506.849] (II) Using input driver 'libinput' for 'Integrated Camera: Integrated C'
+[   506.849] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 23 paused 0
+[   506.849] (**) Integrated Camera: Integrated C: always reports core events
+[   506.849] (**) Option "Device" "/dev/input/event8"
+[   506.849] (**) Option "_source" "server/udev"
+[   506.850] (II) event8  - Integrated Camera: Integrated C: is tagged by udev as: Keyboard
+[   506.850] (II) event8  - Integrated Camera: Integrated C: device is a keyboard
+[   506.850] (II) event8  - Integrated Camera: Integrated C: device removed
+[   506.851] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0/input/input22/event8"
+[   506.851] (II) XINPUT: Adding extended input device "Integrated Camera: Integrated C" (type: KEYBOARD, id 11)
+[   506.852] (II) event8  - Integrated Camera: Integrated C: is tagged by udev as: Keyboard
+[   506.852] (II) event8  - Integrated Camera: Integrated C: device is a keyboard
+[   506.852] (II) config/udev: Adding input device HDA Digital PCBeep (/dev/input/event10)
+[   506.852] (II) No input driver specified, ignoring this device.
+[   506.852] (II) This device may have been added with another device file.
+[   506.852] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event11)
+[   506.852] (II) No input driver specified, ignoring this device.
+[   506.852] (II) This device may have been added with another device file.
+[   506.853] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event12)
+[   506.853] (II) No input driver specified, ignoring this device.
+[   506.853] (II) This device may have been added with another device file.
+[   506.853] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event13)
+[   506.853] (II) No input driver specified, ignoring this device.
+[   506.853] (II) This device may have been added with another device file.
+[   506.853] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event14)
+[   506.853] (II) No input driver specified, ignoring this device.
+[   506.853] (II) This device may have been added with another device file.
+[   506.853] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event15)
+[   506.853] (II) No input driver specified, ignoring this device.
+[   506.853] (II) This device may have been added with another device file.
+[   506.854] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=9 (/dev/input/event16)
+[   506.854] (II) No input driver specified, ignoring this device.
+[   506.854] (II) This device may have been added with another device file.
+[   506.854] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=10 (/dev/input/event17)
+[   506.854] (II) No input driver specified, ignoring this device.
+[   506.854] (II) This device may have been added with another device file.
+[   506.854] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[   506.854] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[   506.854] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[   506.855] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 24 paused 0
+[   506.855] (**) AT Translated Set 2 keyboard: always reports core events
+[   506.855] (**) Option "Device" "/dev/input/event3"
+[   506.855] (**) Option "_source" "server/udev"
+[   506.856] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[   506.856] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[   506.856] (II) event3  - AT Translated Set 2 keyboard: device removed
+[   506.856] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input3/event3"
+[   506.856] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 12)
+[   506.857] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[   506.857] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[   506.858] (II) config/udev: Adding input device PC Speaker (/dev/input/event6)
+[   506.858] (II) No input driver specified, ignoring this device.
+[   506.858] (II) This device may have been added with another device file.
+[   506.858] (II) config/udev: Adding input device ThinkPad Extra Buttons (/dev/input/event7)
+[   506.858] (**) ThinkPad Extra Buttons: Applying InputClass "libinput keyboard catchall"
+[   506.858] (II) Using input driver 'libinput' for 'ThinkPad Extra Buttons'
+[   506.859] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 25 paused 0
+[   506.859] (**) ThinkPad Extra Buttons: always reports core events
+[   506.859] (**) Option "Device" "/dev/input/event7"
+[   506.859] (**) Option "_source" "server/udev"
+[   506.860] (II) event7  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
+[   506.860] (II) event7  - ThinkPad Extra Buttons: device is a keyboard
+[   506.860] (II) event7  - ThinkPad Extra Buttons: device removed
+[   506.860] (**) Option "config_info" "udev:/sys/devices/platform/thinkpad_acpi/input/input19/event7"
+[   506.860] (II) XINPUT: Adding extended input device "ThinkPad Extra Buttons" (type: KEYBOARD, id 13)
+[   506.861] (II) event7  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
+[   506.861] (II) event7  - ThinkPad Extra Buttons: device is a keyboard
+[   506.861] (II) config/udev: Adding input device Synaptics TM3289-021 (/dev/input/event18)
+[   506.861] (**) Synaptics TM3289-021: Applying InputClass "libinput touchpad catchall"
+[   506.861] (**) Synaptics TM3289-021: Applying InputClass "touchpad"
+[   506.861] (II) Using input driver 'libinput' for 'Synaptics TM3289-021'
+[   506.862] (II) systemd-logind: got fd for /dev/input/event18 13:82 fd 26 paused 0
+[   506.862] (**) Synaptics TM3289-021: always reports core events
+[   506.862] (**) Option "Device" "/dev/input/event18"
+[   506.862] (**) Option "_source" "server/udev"
+[   506.862] (II) event18 - Synaptics TM3289-021: is tagged by udev as: Touchpad
+[   506.863] (II) event18 - Synaptics TM3289-021: device is a touchpad
+[   506.863] (II) event18 - Synaptics TM3289-021: device removed
+[   506.863] (**) Option "Tapping" "on"
+[   506.863] (**) Option "TappingButtonMap" "lrm"
+[   506.864] (**) Option "config_info" "udev:/sys/devices/rmi4-00/input/input32/event18"
+[   506.864] (II) XINPUT: Adding extended input device "Synaptics TM3289-021" (type: TOUCHPAD, id 14)
+[   506.864] (**) Option "AccelerationScheme" "none"
+[   506.864] (**) Synaptics TM3289-021: (accel) selected scheme none/0
+[   506.864] (**) Synaptics TM3289-021: (accel) acceleration factor: 2.000
+[   506.864] (**) Synaptics TM3289-021: (accel) acceleration threshold: 4
+[   506.865] (II) event18 - Synaptics TM3289-021: is tagged by udev as: Touchpad
+[   506.866] (II) event18 - Synaptics TM3289-021: device is a touchpad
+[   506.866] (II) config/udev: Adding input device Synaptics TM3289-021 (/dev/input/mouse1)
+[   506.866] (**) Synaptics TM3289-021: Applying InputClass "touchpad"
+[   506.866] (II) Using input driver 'libinput' for 'Synaptics TM3289-021'
+[   506.866] (**) Synaptics TM3289-021: always reports core events
+[   506.866] (**) Option "Device" "/dev/input/mouse1"
+[   506.866] (**) Option "_source" "server/udev"
+[   506.867] (EE) xf86OpenSerial: Cannot open device /dev/input/mouse1
 	Permission denied.
-[   204.596] (II) mouse1: opening input device '/dev/input/mouse1' failed (Permission denied).
-[   204.596] (II) mouse1  - failed to create input device '/dev/input/mouse1'.
-[   204.596] (EE) libinput: Synaptics TM3289-021: Failed to create a device for /dev/input/mouse1
-[   204.596] (EE) PreInit returned 2 for "Synaptics TM3289-021"
-[   204.596] (II) UnloadModule: "libinput"
-[   204.597] (II) config/udev: Adding input device TPPS/2 Elan TrackPoint (/dev/input/event11)
-[   204.597] (**) TPPS/2 Elan TrackPoint: Applying InputClass "libinput pointer catchall"
-[   204.597] (II) Using input driver 'libinput' for 'TPPS/2 Elan TrackPoint'
-[   204.597] (II) systemd-logind: got fd for /dev/input/event11 13:75 fd 27 paused 0
-[   204.597] (**) TPPS/2 Elan TrackPoint: always reports core events
-[   204.597] (**) Option "Device" "/dev/input/event11"
-[   204.597] (**) Option "_source" "server/udev"
-[   204.598] (II) event11 - TPPS/2 Elan TrackPoint: is tagged by udev as: Mouse Pointingstick
-[   204.598] (II) event11 - TPPS/2 Elan TrackPoint: trackpoint multiplier is 0.40
-[   204.598] (II) event11 - TPPS/2 Elan TrackPoint: device is a pointer
-[   204.599] (II) event11 - TPPS/2 Elan TrackPoint: device removed
-[   204.599] (**) Option "config_info" "udev:/sys/devices/rmi4-00/rmi4-00.fn03/serio2/input/input25/event11"
-[   204.599] (II) XINPUT: Adding extended input device "TPPS/2 Elan TrackPoint" (type: MOUSE, id 15)
-[   204.599] (**) Option "AccelerationScheme" "none"
-[   204.599] (**) TPPS/2 Elan TrackPoint: (accel) selected scheme none/0
-[   204.599] (**) TPPS/2 Elan TrackPoint: (accel) acceleration factor: 2.000
-[   204.599] (**) TPPS/2 Elan TrackPoint: (accel) acceleration threshold: 4
-[   204.600] (II) event11 - TPPS/2 Elan TrackPoint: is tagged by udev as: Mouse Pointingstick
-[   204.600] (II) event11 - TPPS/2 Elan TrackPoint: trackpoint multiplier is 0.40
-[   204.600] (II) event11 - TPPS/2 Elan TrackPoint: device is a pointer
-[   204.602] (II) config/udev: Adding input device TPPS/2 Elan TrackPoint (/dev/input/mouse2)
-[   204.602] (II) No input driver specified, ignoring this device.
-[   204.602] (II) This device may have been added with another device file.
-[   204.636] (**) Logitech MX Ergo: Applying InputClass "libinput pointer catchall"
-[   204.636] (**) Logitech MX Ergo: Applying InputClass "libinput keyboard catchall"
-[   204.636] (II) Using input driver 'libinput' for 'Logitech MX Ergo'
-[   204.636] (II) systemd-logind: returning pre-existing fd for /dev/input/event5 13:69
-[   204.636] (**) Logitech MX Ergo: always reports core events
-[   204.636] (**) Option "Device" "/dev/input/event5"
-[   204.636] (**) Option "_source" "_driver/libinput"
-[   204.636] (II) libinput: Logitech MX Ergo: is a virtual subdevice
-[   204.636] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0004/0003:046D:406F.0005/input/input18/event5"
-[   204.636] (II) XINPUT: Adding extended input device "Logitech MX Ergo" (type: KEYBOARD, id 16)
-[   205.161] (II) intel(0): EDID vendor "AUO", prod id 12605
-[   205.161] (II) intel(0): Printing DDC gathered Modelines:
-[   205.161] (II) intel(0): Modeline "1920x1080"x0.0  141.00  1920 1936 1952 2104  1080 1083 1097 1116 -hsync -vsync (67.0 kHz eP)
-[   205.494] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   205.622] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   205.671] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   205.697] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   205.765] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   205.766] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   324.192] (II) intel(0): resizing framebuffer to 3840x1080
-[   324.225] (II) intel(0): switch to mode 1920x1080@60.0 on HDMI1 using pipe 1, position (1920, 0), rotation normal, reflection none
-[   324.549] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   324.667] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   324.668] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   324.677] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   324.736] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   324.752] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   324.778] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   324.801] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[   776.298] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-2ms), your system is too slow
-[   776.298] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-15ms), your system is too slow
-[   781.470] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-7ms), your system is too slow
-[   781.470] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-20ms), your system is too slow
-[  1177.256] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  1177.422] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  1177.443] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  1177.462] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  1177.510] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  7396.765] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-12ms), your system is too slow
-[  7486.797] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-5ms), your system is too slow
-[  7486.797] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-18ms), your system is too slow
-[  7615.836] (II) config/udev: removing device Topre Corporation HHKB Professional
-[  7615.836] (**) Option "fd" "21"
-[  7615.836] (II) event4  - Topre Corporation HHKB Professional: device removed
-[  7615.837] (II) UnloadModule: "libinput"
-[  7615.837] (II) systemd-logind: releasing fd for 13:68
-[  7615.986] (II) config/udev: removing device Logitech MX Ergo
-[  7615.986] (**) Option "fd" "22"
-[  7615.986] (II) UnloadModule: "libinput"
-[  7615.986] (II) systemd-logind: not releasing fd for 13:69, still in use
-[  7615.986] (II) config/udev: removing device Logitech MX Ergo
-[  7615.986] (**) Option "fd" "22"
-[  7615.986] (II) event5  - Logitech MX Ergo: device removed
-[  7615.987] (II) UnloadModule: "libinput"
-[  7615.987] (II) systemd-logind: releasing fd for 13:69
-[  7621.477] (II) config/udev: Adding input device Topre Corporation HHKB Professional (/dev/input/event4)
-[  7621.477] (**) Topre Corporation HHKB Professional: Applying InputClass "libinput keyboard catchall"
-[  7621.477] (II) Using input driver 'libinput' for 'Topre Corporation HHKB Professional'
-[  7621.480] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 22 paused 0
-[  7621.480] (**) Topre Corporation HHKB Professional: always reports core events
-[  7621.480] (**) Option "Device" "/dev/input/event4"
-[  7621.480] (**) Option "_source" "server/udev"
-[  7621.485] (II) event4  - Topre Corporation HHKB Professional: is tagged by udev as: Keyboard
-[  7621.485] (II) event4  - Topre Corporation HHKB Professional: device is a keyboard
-[  7621.486] (II) event4  - Topre Corporation HHKB Professional: device removed
-[  7621.487] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:0853:0100.0006/input/input34/event4"
-[  7621.487] (II) XINPUT: Adding extended input device "Topre Corporation HHKB Professional" (type: KEYBOARD, id 9)
-[  7621.492] (II) event4  - Topre Corporation HHKB Professional: is tagged by udev as: Keyboard
-[  7621.492] (II) event4  - Topre Corporation HHKB Professional: device is a keyboard
-[  7621.735] (II) config/udev: Adding input device Logitech MX Ergo (/dev/input/mouse0)
-[  7621.735] (II) No input driver specified, ignoring this device.
-[  7621.735] (II) This device may have been added with another device file.
-[  7621.811] (II) config/udev: Adding input device Logitech MX Ergo (/dev/input/event5)
-[  7621.811] (**) Logitech MX Ergo: Applying InputClass "libinput pointer catchall"
-[  7621.811] (**) Logitech MX Ergo: Applying InputClass "libinput keyboard catchall"
-[  7621.811] (II) Using input driver 'libinput' for 'Logitech MX Ergo'
-[  7621.813] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 36 paused 0
-[  7621.813] (**) Logitech MX Ergo: always reports core events
-[  7621.813] (**) Option "Device" "/dev/input/event5"
-[  7621.813] (**) Option "_source" "server/udev"
-[  7621.819] (II) event5  - Logitech MX Ergo: is tagged by udev as: Keyboard Mouse
-[  7621.819] (II) event5  - Logitech MX Ergo: device is a pointer
-[  7621.819] (II) event5  - Logitech MX Ergo: device is a keyboard
-[  7621.820] (II) event5  - Logitech MX Ergo: device removed
-[  7621.821] (II) libinput: Logitech MX Ergo: needs a virtual subdevice
-[  7621.821] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0009/0003:046D:406F.000A/input/input35/event5"
-[  7621.821] (II) XINPUT: Adding extended input device "Logitech MX Ergo" (type: MOUSE, id 10)
-[  7621.821] (**) Option "AccelerationScheme" "none"
-[  7621.821] (**) Logitech MX Ergo: (accel) selected scheme none/0
-[  7621.821] (**) Logitech MX Ergo: (accel) acceleration factor: 2.000
-[  7621.821] (**) Logitech MX Ergo: (accel) acceleration threshold: 4
-[  7621.826] (II) event5  - Logitech MX Ergo: is tagged by udev as: Keyboard Mouse
-[  7621.827] (II) event5  - Logitech MX Ergo: device is a pointer
-[  7621.827] (II) event5  - Logitech MX Ergo: device is a keyboard
-[  7621.828] (**) Logitech MX Ergo: Applying InputClass "libinput pointer catchall"
-[  7621.828] (**) Logitech MX Ergo: Applying InputClass "libinput keyboard catchall"
-[  7621.828] (II) Using input driver 'libinput' for 'Logitech MX Ergo'
-[  7621.828] (II) systemd-logind: returning pre-existing fd for /dev/input/event5 13:69
-[  7621.828] (**) Logitech MX Ergo: always reports core events
-[  7621.828] (**) Option "Device" "/dev/input/event5"
-[  7621.828] (**) Option "_source" "_driver/libinput"
-[  7621.828] (II) libinput: Logitech MX Ergo: is a virtual subdevice
-[  7621.828] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0009/0003:046D:406F.000A/input/input35/event5"
-[  7621.828] (II) XINPUT: Adding extended input device "Logitech MX Ergo" (type: KEYBOARD, id 16)
-[  7663.687] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-5ms), your system is too slow
-[  7663.687] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-18ms), your system is too slow
-[  7864.333] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-11ms), your system is too slow
-[  7864.333] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-24ms), your system is too slow
-[  7903.427] (II) config/udev: removing device Topre Corporation HHKB Professional
-[  7903.427] (**) Option "fd" "22"
-[  7903.427] (II) event4  - Topre Corporation HHKB Professional: device removed
-[  7903.428] (II) UnloadModule: "libinput"
-[  7903.428] (II) systemd-logind: releasing fd for 13:68
-[  7903.559] (II) config/udev: removing device Logitech MX Ergo
-[  7903.559] (**) Option "fd" "36"
-[  7903.559] (II) UnloadModule: "libinput"
-[  7903.559] (II) systemd-logind: not releasing fd for 13:69, still in use
-[  7903.559] (II) config/udev: removing device Logitech MX Ergo
-[  7903.559] (**) Option "fd" "36"
-[  7903.559] (II) event5  - Logitech MX Ergo: device removed
-[  7903.560] (II) UnloadModule: "libinput"
-[  7903.560] (II) systemd-logind: releasing fd for 13:69
-[  7925.266] (II) config/udev: Adding input device Topre Corporation HHKB Professional (/dev/input/event4)
-[  7925.267] (**) Topre Corporation HHKB Professional: Applying InputClass "libinput keyboard catchall"
-[  7925.267] (II) Using input driver 'libinput' for 'Topre Corporation HHKB Professional'
-[  7925.269] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 36 paused 0
-[  7925.269] (**) Topre Corporation HHKB Professional: always reports core events
-[  7925.269] (**) Option "Device" "/dev/input/event4"
-[  7925.269] (**) Option "_source" "server/udev"
-[  7925.274] (II) event4  - Topre Corporation HHKB Professional: is tagged by udev as: Keyboard
-[  7925.274] (II) event4  - Topre Corporation HHKB Professional: device is a keyboard
-[  7925.275] (II) event4  - Topre Corporation HHKB Professional: device removed
-[  7925.275] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:0853:0100.000B/input/input36/event4"
-[  7925.276] (II) XINPUT: Adding extended input device "Topre Corporation HHKB Professional" (type: KEYBOARD, id 9)
-[  7925.281] (II) event4  - Topre Corporation HHKB Professional: is tagged by udev as: Keyboard
-[  7925.281] (II) event4  - Topre Corporation HHKB Professional: device is a keyboard
-[  7925.557] (II) config/udev: Adding input device Logitech MX Ergo (/dev/input/mouse0)
-[  7925.557] (II) No input driver specified, ignoring this device.
-[  7925.557] (II) This device may have been added with another device file.
-[  7925.639] (II) config/udev: Adding input device Logitech MX Ergo (/dev/input/event5)
-[  7925.639] (**) Logitech MX Ergo: Applying InputClass "libinput pointer catchall"
-[  7925.639] (**) Logitech MX Ergo: Applying InputClass "libinput keyboard catchall"
-[  7925.639] (II) Using input driver 'libinput' for 'Logitech MX Ergo'
-[  7925.641] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 46 paused 0
-[  7925.641] (**) Logitech MX Ergo: always reports core events
-[  7925.641] (**) Option "Device" "/dev/input/event5"
-[  7925.641] (**) Option "_source" "server/udev"
-[  7925.647] (II) event5  - Logitech MX Ergo: is tagged by udev as: Keyboard Mouse
-[  7925.647] (II) event5  - Logitech MX Ergo: device is a pointer
-[  7925.647] (II) event5  - Logitech MX Ergo: device is a keyboard
-[  7925.648] (II) event5  - Logitech MX Ergo: device removed
-[  7925.648] (II) libinput: Logitech MX Ergo: needs a virtual subdevice
-[  7925.648] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.000E/0003:046D:406F.000F/input/input37/event5"
-[  7925.649] (II) XINPUT: Adding extended input device "Logitech MX Ergo" (type: MOUSE, id 10)
-[  7925.649] (**) Option "AccelerationScheme" "none"
-[  7925.649] (**) Logitech MX Ergo: (accel) selected scheme none/0
-[  7925.649] (**) Logitech MX Ergo: (accel) acceleration factor: 2.000
-[  7925.649] (**) Logitech MX Ergo: (accel) acceleration threshold: 4
-[  7925.654] (II) event5  - Logitech MX Ergo: is tagged by udev as: Keyboard Mouse
-[  7925.655] (II) event5  - Logitech MX Ergo: device is a pointer
-[  7925.655] (II) event5  - Logitech MX Ergo: device is a keyboard
-[  7925.656] (**) Logitech MX Ergo: Applying InputClass "libinput pointer catchall"
-[  7925.656] (**) Logitech MX Ergo: Applying InputClass "libinput keyboard catchall"
-[  7925.656] (II) Using input driver 'libinput' for 'Logitech MX Ergo'
-[  7925.656] (II) systemd-logind: returning pre-existing fd for /dev/input/event5 13:69
-[  7925.656] (**) Logitech MX Ergo: always reports core events
-[  7925.656] (**) Option "Device" "/dev/input/event5"
-[  7925.656] (**) Option "_source" "_driver/libinput"
-[  7925.656] (II) libinput: Logitech MX Ergo: is a virtual subdevice
-[  7925.656] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.000E/0003:046D:406F.000F/input/input37/event5"
-[  7925.656] (II) XINPUT: Adding extended input device "Logitech MX Ergo" (type: KEYBOARD, id 16)
-[  8799.603] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-4ms), your system is too slow
-[  8799.604] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-17ms), your system is too slow
-[  9046.850] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9047.039] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9047.060] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9047.079] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9047.137] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9074.049] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9074.195] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9074.209] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9074.213] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9074.215] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9074.221] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9074.234] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9074.239] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9074.240] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9074.243] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9087.693] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9087.714] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9087.720] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9087.728] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[  9087.746] (--) intel(0): HDMI max TMDS frequency 165000KHz
-[ 10007.996] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-0ms), your system is too slow
-[ 10109.745] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-0ms), your system is too slow
-[ 13292.040] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-4ms), your system is too slow
-[ 14659.682] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-7ms), your system is too slow
-[ 14801.242] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-3ms), your system is too slow
-[ 14876.090] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-5ms), your system is too slow
-[ 14876.091] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-18ms), your system is too slow
-[ 14953.728] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-6ms), your system is too slow
-[ 15481.599] (**) Option "fd" "16"
-[ 15481.599] (II) event2  - Power Button: device removed
-[ 15481.600] (**) Option "fd" "19"
-[ 15481.600] (II) event9  - Video Bus: device removed
-[ 15481.600] (**) Option "fd" "20"
-[ 15481.600] (II) event0  - Sleep Button: device removed
-[ 15481.600] (**) Option "fd" "23"
-[ 15481.600] (II) event8  - Integrated Camera: Integrated C: device removed
-[ 15481.600] (**) Option "fd" "24"
-[ 15481.600] (II) event3  - AT Translated Set 2 keyboard: device removed
-[ 15481.600] (**) Option "fd" "25"
-[ 15481.600] (II) event6  - ThinkPad Extra Buttons: device removed
-[ 15481.600] (**) Option "fd" "26"
-[ 15481.600] (II) event10 - Synaptics TM3289-021: device removed
-[ 15481.600] (**) Option "fd" "27"
-[ 15481.600] (II) event11 - TPPS/2 Elan TrackPoint: device removed
-[ 15481.600] (**) Option "fd" "36"
-[ 15481.600] (II) event4  - Topre Corporation HHKB Professional: device removed
-[ 15481.600] (**) Option "fd" "46"
-[ 15481.600] (**) Option "fd" "46"
-[ 15481.600] (II) event5  - Logitech MX Ergo: device removed
-[ 15481.603] (II) UnloadModule: "libinput"
-[ 15481.603] (II) systemd-logind: not releasing fd for 13:69, still in use
-[ 15481.603] (II) UnloadModule: "libinput"
-[ 15481.603] (II) systemd-logind: releasing fd for 13:69
-[ 15481.604] (II) UnloadModule: "libinput"
-[ 15481.604] (II) systemd-logind: releasing fd for 13:68
-[ 15481.606] (II) UnloadModule: "libinput"
-[ 15481.606] (II) systemd-logind: releasing fd for 13:75
-[ 15481.607] (II) UnloadModule: "libinput"
-[ 15481.609] (II) systemd-logind: releasing fd for 13:74
-[ 15481.624] (II) UnloadModule: "libinput"
-[ 15481.624] (II) systemd-logind: releasing fd for 13:70
-[ 15481.626] (II) UnloadModule: "libinput"
-[ 15481.626] (II) systemd-logind: releasing fd for 13:67
-[ 15481.720] (II) UnloadModule: "libinput"
-[ 15481.720] (II) systemd-logind: releasing fd for 13:72
-[ 15481.721] (II) UnloadModule: "libinput"
-[ 15481.721] (II) systemd-logind: releasing fd for 13:64
-[ 15481.721] (II) UnloadModule: "libinput"
-[ 15481.721] (II) systemd-logind: releasing fd for 13:73
-[ 15481.722] (II) UnloadModule: "libinput"
-[ 15481.722] (II) systemd-logind: releasing fd for 13:66
-[ 15481.764] (WW) xf86CloseConsole: KDSETMODE failed: Input/output error
-[ 15481.764] (WW) xf86CloseConsole: VT_GETMODE failed: Input/output error
-[ 15481.764] (WW) xf86CloseConsole: VT_ACTIVATE failed: Input/output error
-[ 15481.765] (II) Server terminated successfully (0). Closing log file.
+[   506.867] (II) mouse1: opening input device '/dev/input/mouse1' failed (Permission denied).
+[   506.867] (II) mouse1  - failed to create input device '/dev/input/mouse1'.
+[   506.867] (EE) libinput: Synaptics TM3289-021: Failed to create a device for /dev/input/mouse1
+[   506.867] (EE) PreInit returned 2 for "Synaptics TM3289-021"
+[   506.867] (II) UnloadModule: "libinput"
+[   506.867] (II) config/udev: Adding input device TPPS/2 Elan TrackPoint (/dev/input/event19)
+[   506.867] (**) TPPS/2 Elan TrackPoint: Applying InputClass "libinput pointer catchall"
+[   506.867] (II) Using input driver 'libinput' for 'TPPS/2 Elan TrackPoint'
+[   506.867] (II) systemd-logind: got fd for /dev/input/event19 13:83 fd 27 paused 0
+[   506.867] (**) TPPS/2 Elan TrackPoint: always reports core events
+[   506.867] (**) Option "Device" "/dev/input/event19"
+[   506.867] (**) Option "_source" "server/udev"
+[   506.868] (II) event19 - TPPS/2 Elan TrackPoint: is tagged by udev as: Mouse Pointingstick
+[   506.869] (II) event19 - TPPS/2 Elan TrackPoint: trackpoint multiplier is 0.40
+[   506.869] (II) event19 - TPPS/2 Elan TrackPoint: device is a pointer
+[   506.869] (II) event19 - TPPS/2 Elan TrackPoint: device removed
+[   506.870] (**) Option "config_info" "udev:/sys/devices/rmi4-00/rmi4-00.fn03/serio2/input/input33/event19"
+[   506.870] (II) XINPUT: Adding extended input device "TPPS/2 Elan TrackPoint" (type: MOUSE, id 15)
+[   506.870] (**) Option "AccelerationScheme" "none"
+[   506.870] (**) TPPS/2 Elan TrackPoint: (accel) selected scheme none/0
+[   506.870] (**) TPPS/2 Elan TrackPoint: (accel) acceleration factor: 2.000
+[   506.870] (**) TPPS/2 Elan TrackPoint: (accel) acceleration threshold: 4
+[   506.870] (II) event19 - TPPS/2 Elan TrackPoint: is tagged by udev as: Mouse Pointingstick
+[   506.871] (II) event19 - TPPS/2 Elan TrackPoint: trackpoint multiplier is 0.40
+[   506.871] (II) event19 - TPPS/2 Elan TrackPoint: device is a pointer
+[   506.872] (II) config/udev: Adding input device TPPS/2 Elan TrackPoint (/dev/input/mouse2)
+[   506.872] (II) No input driver specified, ignoring this device.
+[   506.872] (II) This device may have been added with another device file.
+[   506.914] (**) Logitech MX Ergo: Applying InputClass "libinput pointer catchall"
+[   506.914] (**) Logitech MX Ergo: Applying InputClass "libinput keyboard catchall"
+[   506.914] (II) Using input driver 'libinput' for 'Logitech MX Ergo'
+[   506.914] (II) systemd-logind: returning pre-existing fd for /dev/input/event5 13:69
+[   506.914] (**) Logitech MX Ergo: always reports core events
+[   506.914] (**) Option "Device" "/dev/input/event5"
+[   506.914] (**) Option "_source" "_driver/libinput"
+[   506.914] (II) libinput: Logitech MX Ergo: is a virtual subdevice
+[   506.914] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.2/0003:046D:C52B.0004/0003:046D:406F.0005/input/input18/event5"
+[   506.914] (II) XINPUT: Adding extended input device "Logitech MX Ergo" (type: KEYBOARD, id 16)
+[   507.619] (II) intel(0): EDID vendor "AUO", prod id 12605
+[   507.619] (II) intel(0): Printing DDC gathered Modelines:
+[   507.619] (II) intel(0): Modeline "1920x1080"x0.0  141.00  1920 1936 1952 2104  1080 1083 1097 1116 -hsync -vsync (67.0 kHz eP)
+[   507.952] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   508.079] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   508.126] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   508.150] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   508.217] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   508.217] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   522.577] (II) intel(0): resizing framebuffer to 3840x1080
+[   522.617] (II) intel(0): switch to mode 1920x1080@60.0 on HDMI1 using pipe 1, position (1920, 0), rotation normal, reflection none
+[   522.940] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   522.941] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   522.941] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   522.944] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   522.957] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   523.078] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   523.088] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[   523.156] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[  1131.683] (**) Option "fd" "16"
+[  1131.683] (II) event2  - Power Button: device removed
+[  1131.683] (**) Option "fd" "19"
+[  1131.683] (II) event9  - Video Bus: device removed
+[  1131.684] (**) Option "fd" "20"
+[  1131.684] (II) event0  - Sleep Button: device removed
+[  1131.684] (**) Option "fd" "21"
+[  1131.684] (II) event4  - Topre Corporation HHKB Professional: device removed
+[  1131.684] (**) Option "fd" "22"
+[  1131.684] (**) Option "fd" "23"
+[  1131.684] (II) event8  - Integrated Camera: Integrated C: device removed
+[  1131.684] (**) Option "fd" "24"
+[  1131.684] (II) event3  - AT Translated Set 2 keyboard: device removed
+[  1131.684] (**) Option "fd" "25"
+[  1131.684] (II) event7  - ThinkPad Extra Buttons: device removed
+[  1131.684] (**) Option "fd" "26"
+[  1131.684] (II) event18 - Synaptics TM3289-021: device removed
+[  1131.684] (**) Option "fd" "27"
+[  1131.684] (II) event19 - TPPS/2 Elan TrackPoint: device removed
+[  1131.684] (**) Option "fd" "22"
+[  1131.684] (II) event5  - Logitech MX Ergo: device removed
+[  1131.685] (II) UnloadModule: "libinput"
+[  1131.685] (II) systemd-logind: not releasing fd for 13:69, still in use
+[  1131.685] (II) UnloadModule: "libinput"
+[  1131.685] (II) systemd-logind: releasing fd for 13:83
+[  1131.691] (II) UnloadModule: "libinput"
+[  1131.691] (II) systemd-logind: releasing fd for 13:82
+[  1131.692] (II) UnloadModule: "libinput"
+[  1131.692] (II) systemd-logind: releasing fd for 13:71
+[  1131.731] (II) UnloadModule: "libinput"
+[  1131.731] (II) systemd-logind: releasing fd for 13:67
+[  1131.781] (II) UnloadModule: "libinput"
+[  1131.781] (II) systemd-logind: releasing fd for 13:72
+[  1131.841] (II) UnloadModule: "libinput"
+[  1131.841] (II) systemd-logind: releasing fd for 13:69
+[  1131.861] (II) UnloadModule: "libinput"
+[  1131.861] (II) systemd-logind: releasing fd for 13:68
+[  1131.894] (II) UnloadModule: "libinput"
+[  1131.894] (II) systemd-logind: releasing fd for 13:64
+[  1131.928] (II) UnloadModule: "libinput"
+[  1131.928] (II) systemd-logind: releasing fd for 13:73
+[  1131.995] (II) UnloadModule: "libinput"
+[  1131.995] (II) systemd-logind: releasing fd for 13:66
+[  1132.075] (WW) xf86CloseConsole: KDSETMODE failed: Input/output error
+[  1132.075] (WW) xf86CloseConsole: VT_GETMODE failed: Input/output error
+[  1132.075] (WW) xf86CloseConsole: VT_ACTIVATE failed: Input/output error
+[  1132.077] (II) Server terminated successfully (0). Closing log file.
