@@ -5,7 +5,6 @@ alias ll="ls -l"
 alias la="ls -la"
 alias ..="cd .."
 
-
 # git alias
 alias gs="git status"
 alias ga="git add"
