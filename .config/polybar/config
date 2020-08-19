@@ -29,65 +29,7 @@ alert = #bd2c40
 
 
 [bar/mainMonitor]
-monitor = eDP1 
-width = 100%
-height = 20
-;offset-x = 1%
-;offset-y = 1%
-radius = 0.0
-fixed-center = false
-
-background = ${colors.background}
-foreground = ${colors.foreground}
-
-line-size = 1
-line-color = #00564d
-
-border-size = 0
-border-color = #0D00564d
-
-padding-left = 0
-padding-right = 1
-
-module-margin-left = 1
-module-margin-right = 1
-
-font-0 = Droid Sans Mono:style=Regular:pixelsize=14;2
-# font-1 = Font Awesome 5 Brands Regular:style=Regular:pixelsize=12;2
-font-1 = unifont:fontformat=truetype:size=14:antialias=false;2
-font-2 = siji:style=Regular:pixelsize=24;2
-font-3 = Font Awesome 5 Free:pixelsize=12;2
-font-4 = Font Awesome 5 Free Solid:pixelsize=12;2
-font-5 = Font Awesome 5 Brands:pixelsize=12;2
-
-modules-left = bspwm
-modules-center = xwindow pacman-updates
-modules-right = filesystem pulseaudio xkeyboard memory cpu wlan eth battery temperature  date powermenu
-
-separator = |
-tray-position = none
-tray-padding = 2
-;tray-background = #0063ff
-
-;wm-restack = bspwm
-;wm-restack = i3
-
-;override-redirect = true
-
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
-
-cursor-click = pointer
-cursor-scroll = ns-resize
-
-
-
-
-[bar/externalMonitor]
-monitor = HDMI1
+monitor = ${env:MONITOR}
 width = 100%
 height = 20
 ;offset-x = 1%
@@ -166,7 +108,7 @@ exec = python /home/ermanno/.config/scripts/spotify_status.py -f '{artist}: {son
 format-underline = #1db954
 
 [module/xkeyboard]
-type = internal/keyboard
+type = internal/xkeyboard
 blacklist-0 = num lock
 
 format-prefix = %{A1:sh /home/graz/.config/scripts/switch_key_layout.sh:} %{A}

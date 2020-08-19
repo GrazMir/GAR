@@ -103,4 +103,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/graz/Pictures/Backgrounds/ultraviolet.jpg" added="2020-08-19T18:16:16Z" modified="2020-08-19T18:16:16Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-19T18:16:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

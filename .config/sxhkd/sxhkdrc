@@ -147,7 +147,7 @@ alt + b
 	chromium
 
 super + r
-	ranger
+	st -e ranger
 
 super + u
     updates
