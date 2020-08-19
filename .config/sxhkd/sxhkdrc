@@ -140,11 +140,17 @@ XF86MonBrightnessUp
 
 # lockscreen
 super + x
-	betterlockscreen -l dimblur
+	betterlockscreen -l dimblur 2>/dev/null
 
 # launch browser
 alt + b
 	chromium
 
-alt + r
+super + r
 	ranger
+
+super + u
+    updates
+
+super + m
+    sh /home/graz/.screenlayout/dual_display.sh

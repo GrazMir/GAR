@@ -166,7 +166,7 @@ exec = python /home/ermanno/.config/scripts/spotify_status.py -f '{artist}: {son
 format-underline = #1db954
 
 [module/xkeyboard]
-type = internal/xkeyboard
+type = internal/keyboard
 blacklist-0 = num lock
 
 format-prefix = %{A1:sh /home/graz/.config/scripts/switch_key_layout.sh:} %{A}
@@ -180,8 +180,6 @@ label-indicator-padding = 2
 label-indicator-margin = 1
 label-indicator-background = ${colors.secondary}
 label-indicator-underline = ${colors.secondary}
-
-click-left = "sh /home/graz/.config/scripts/switch_key_layout.sh"
 
 [module/filesystem]
 type = internal/fs
