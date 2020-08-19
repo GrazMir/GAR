@@ -113,4 +113,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/graz/Documents/Books/awk_manual.pdf" added="2020-08-19T19:02:02Z" modified="2020-08-19T19:02:02Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-19T19:02:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

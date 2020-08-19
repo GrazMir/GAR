@@ -11,9 +11,8 @@ else
 	bspc monitor eDP1 -d I II III IV V VI VII VIII IX X
 fi
 
-
-bspc config border_width         2
-bspc config window_gap          12
+bspc config border_width         1
+bspc config window_gap           4
 bspc config top_padding          0
 
 bspc config split_ratio          0.52
@@ -31,7 +30,11 @@ xdo below -t $(xdo id -n root) $(xdo id -a polybar-main_HDMI1)
 
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Chromium desktop='^2'
+if [ "$(xrandr | awk '/HDMI1/ {print $2}')" == "connected" ]; then
+    bspc rule -a Chromium desktop='^7'
+else    
+    bspc rule -a Chromium desktop='^2'
+fi
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
