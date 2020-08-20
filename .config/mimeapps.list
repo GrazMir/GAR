@@ -1,0 +1,6 @@
+
+[Default Applications]
+application/x-ica=wfica.desktop
+application/vnd.citrix.receiver.configure=new_store.desktop
+x-scheme-handler/receiver=receiver.desktop
+application/x-wine-extension-ini=citrix.desktop

@@ -1,6 +1,8 @@
 help
-w
-vim 
 o
 delete
 
+vim 
+n
+wq
+w

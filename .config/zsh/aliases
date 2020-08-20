@@ -17,3 +17,7 @@ gc(){
 gacp(){
     ga . && gc $1 && gp
 }
+
+brkbd(){
+    brightnessctl --device='tpacpi::kbd_backlight' set $1 2&>/dev/null
+}

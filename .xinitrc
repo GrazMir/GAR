@@ -38,4 +38,7 @@ setxkbmap gb &
 $HOME/.screenlayout/main_display.sh
 xsetroot -cursor_name left_ptr
 picom -f &
-exec bspwm
+# exec bspwm
+while true; do
+    exec dwm
+done

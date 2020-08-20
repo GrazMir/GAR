@@ -38,3 +38,5 @@ fi
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
+bspc rule -a Citrix Workspace desktop='^8' follow=on state=fullscreen
+bspc rule -a Wfica  desktop='^8' follow=on state=fullscreen

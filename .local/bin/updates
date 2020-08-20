@@ -7,4 +7,4 @@ sudo -S  pacman -Suy
 echo ""
 echo "Updating Community ..."
 echo ""
-sudo -S yay -Suy
+yay -Suy

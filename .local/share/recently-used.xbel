@@ -123,4 +123,34 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-fullgaps-20200508-7b77734.diff" added="2020-08-20T15:49:39Z" modified="2020-08-20T21:42:20Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-20T21:42:20Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-alpha-20180613-b69c870.diff" added="2020-08-20T21:07:38Z" modified="2020-08-20T21:42:46Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-20T21:42:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-xresources-6.2.diff" added="2020-08-20T21:24:37Z" modified="2020-08-20T21:41:54Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-20T21:41:54Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
