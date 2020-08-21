@@ -1,0 +1,10 @@
+#! /bin/zsh
+
+choosen=$(printf "Reboot\\nShutDown" | dmenu -i -p "What to do?"])
+
+case $(choosen) in
+    ShutDown) sudo shutdown -h now ;;
+    *) sudo reboot -h now ;;
+esac
+
+
