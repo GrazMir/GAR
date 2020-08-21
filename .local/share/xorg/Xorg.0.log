@@ -408,3 +408,9 @@ X Protocol Version 11, Revision 0
 [   168.354] (II) intel(0): Modeline "1920x1080"x0.0  141.00  1920 1936 1952 2104  1080 1083 1097 1116 -hsync -vsync (67.0 kHz eP)
 [   168.687] (--) intel(0): HDMI max TMDS frequency 165000KHz
 [   600.233] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-3ms), your system is too slow
+[  1730.220] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-3ms), your system is too slow
+[  1941.674] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-7ms), your system is too slow
+[  2141.319] (--) intel(0): HDMI max TMDS frequency 165000KHz
+[  2144.702] (II) intel(0): resizing framebuffer to 3840x1080
+[  2144.747] (II) intel(0): switch to mode 1920x1080@60.0 on HDMI1 using pipe 1, position (1920, 0), rotation normal, reflection none
+[  2354.016] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-3ms), your system is too slow

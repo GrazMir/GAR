@@ -46,7 +46,7 @@ xsetroot -cursor_name left_ptr
 picom -f &
 # exec bspwm
 while :; do
-    ssh-agent dwm
+    ssh-agent dwm dwmblocks
 done
 
 $HOME/.local/bin/autodisplay
