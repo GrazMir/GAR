@@ -408,3 +408,64 @@ X Protocol Version 11, Revision 0
 [   212.434] (--) intel(0): HDMI max TMDS frequency 165000KHz
 [   214.587] (II) intel(0): resizing framebuffer to 3840x1080
 [   214.620] (II) intel(0): switch to mode 1920x1080@60.0 on HDMI1 using pipe 1, position (1920, 0), rotation normal, reflection none
+[  3701.931] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-5ms), your system is too slow
+[  3701.931] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-18ms), your system is too slow
+[  3716.743] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-4ms), your system is too slow
+[  3716.744] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-17ms), your system is too slow
+[  3738.209] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-6ms), your system is too slow
+[  3739.893] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-0ms), your system is too slow
+[  3739.893] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-13ms), your system is too slow
+[  3750.929] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-13ms), your system is too slow
+[  3750.929] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-26ms), your system is too slow
+[  3757.038] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-8ms), your system is too slow
+[  3760.800] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-6ms), your system is too slow
+[  3772.618] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-1ms), your system is too slow
+[  3777.428] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-11ms), your system is too slow
+[  3780.343] (EE) client bug: timer event5 debounce: scheduled expiry is in the past (-7ms), your system is too slow
+[  3780.344] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-20ms), your system is too slow
+[  3782.051] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-8ms), your system is too slow
+[  3785.893] (EE) client bug: timer event5 debounce short: scheduled expiry is in the past (-7ms), your system is too slow
+[  6462.152] (**) Option "fd" "16"
+[  6462.152] (II) event2  - Power Button: device removed
+[  6462.153] (**) Option "fd" "19"
+[  6462.153] (II) event9  - Video Bus: device removed
+[  6462.153] (**) Option "fd" "20"
+[  6462.153] (II) event0  - Sleep Button: device removed
+[  6462.153] (**) Option "fd" "21"
+[  6462.153] (II) event4  - Topre Corporation HHKB Professional: device removed
+[  6462.153] (**) Option "fd" "22"
+[  6462.153] (**) Option "fd" "23"
+[  6462.153] (II) event8  - Integrated Camera: Integrated C: device removed
+[  6462.153] (**) Option "fd" "24"
+[  6462.153] (II) event3  - AT Translated Set 2 keyboard: device removed
+[  6462.153] (**) Option "fd" "25"
+[  6462.153] (II) event6  - ThinkPad Extra Buttons: device removed
+[  6462.153] (**) Option "fd" "26"
+[  6462.153] (II) event18 - Synaptics TM3289-021: device removed
+[  6462.153] (**) Option "fd" "27"
+[  6462.153] (II) event19 - TPPS/2 Elan TrackPoint: device removed
+[  6462.153] (**) Option "fd" "22"
+[  6462.153] (II) event5  - Logitech MX Ergo: device removed
+[  6462.154] (II) UnloadModule: "libinput"
+[  6462.154] (II) systemd-logind: not releasing fd for 13:69, still in use
+[  6462.154] (II) UnloadModule: "libinput"
+[  6462.154] (II) systemd-logind: releasing fd for 13:83
+[  6462.155] (II) UnloadModule: "libinput"
+[  6462.155] (II) systemd-logind: releasing fd for 13:82
+[  6462.156] (II) UnloadModule: "libinput"
+[  6462.156] (II) systemd-logind: releasing fd for 13:70
+[  6462.160] (II) UnloadModule: "libinput"
+[  6462.160] (II) systemd-logind: releasing fd for 13:67
+[  6462.162] (II) UnloadModule: "libinput"
+[  6462.162] (II) systemd-logind: releasing fd for 13:72
+[  6462.166] (II) UnloadModule: "libinput"
+[  6462.166] (II) systemd-logind: releasing fd for 13:69
+[  6462.171] (II) UnloadModule: "libinput"
+[  6462.171] (II) systemd-logind: releasing fd for 13:68
+[  6462.172] (II) UnloadModule: "libinput"
+[  6462.172] (II) systemd-logind: releasing fd for 13:64
+[  6462.173] (II) UnloadModule: "libinput"
+[  6462.173] (II) systemd-logind: releasing fd for 13:73
+[  6462.174] (II) UnloadModule: "libinput"
+[  6462.174] (II) systemd-logind: releasing fd for 13:66
+[  6462.269] (II) Server terminated successfully (0). Closing log file.
