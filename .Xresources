@@ -2,5 +2,5 @@
 !! st terminal settings
 st.alpha:1
 !!st.font: xft:Iosevka Term:size=20:hinting=true
-st.font: xft:Liberation Mono:size=14:hinting=true
+st.font: xft:Liberation Mono:size=18:hinting=true
 !! 
