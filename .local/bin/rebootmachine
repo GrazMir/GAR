@@ -2,9 +2,8 @@
 
 choosen=$(printf "Reboot\\nShutDown" | dmenu -i -p "What to do?"])
 
-case $(choosen) in
+case "$choosen" in
     ShutDown) sudo shutdown -h now ;;
-    *) sudo reboot -h now ;;
+    Reboot) sudo reboot -h now ;;
 esac
-
 

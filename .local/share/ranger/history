@@ -1,8 +1,11 @@
-help
 o
-delete
 
 vim 
 n
 wq
 w
+help
+rename 
+shell q %s
+trash
+delete

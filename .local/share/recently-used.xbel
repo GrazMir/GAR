@@ -163,4 +163,24 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/graz/Pictures/Backgrounds/woods2.jpg" added="2020-08-28T14:25:48Z" modified="2020-08-28T14:25:48Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-28T14:25:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Pictures/Backgrounds/spaces1.jpg" added="2020-08-28T14:26:44Z" modified="2020-08-28T14:26:44Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-28T14:26:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
