@@ -183,4 +183,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-autostart-20200610-cb3f58a.diff" added="2020-09-01T12:08:19Z" modified="2020-09-01T12:08:19Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-01T12:08:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

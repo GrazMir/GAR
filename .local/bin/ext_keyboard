@@ -1,0 +1,10 @@
+#! /bin/bash
+
+keyboard=$(ls /dev/input/by-id/ | grep "usb-Topre")
+layout=$(setxkbmap -query | awk '/layout/ {print $2}')
+
+if [ ! -z $keyboard ] && [ "$layout" == "gb" ]; then
+    setxkbmap us
+elif [ -z $keyboard ] && [ "$layout" == "us" ]; then
+    setxkbmap gb
+fi 
