@@ -1,8 +1,9 @@
 #! /bin/zsh
 
-# ls based 
-alias ll="ls -l"
-alias la="ls -la"
+# ls based
+alias ls="ls --color"
+alias ll="ls -l --color"
+alias la="ls -la --color"
 alias ..="cd .."
 
 # git alias

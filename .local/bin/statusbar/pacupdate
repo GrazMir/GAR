@@ -1,4 +1,10 @@
 #!/bin/bash
 
+case $BLOCK_BUTTON in 
+    1) notify-send "left button" ;;
+    2) notify-send "middle button" ;;
+    3) notify-send "right button" ;;
+esac
+
 cupd=$(checkupdates | wc -l)
 printf "  %s" "$cupd "

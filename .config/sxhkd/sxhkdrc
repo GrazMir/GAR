@@ -1,2 +1,8 @@
-super + b 
-    Chromium
+ctrl + a
+    cd /home/graz/Downloads/
+
+ctrl + o
+    echo "ella" && cd /home/graz/Downloads/
+
+ctrl + p 
+    ls &

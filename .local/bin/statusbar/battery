@@ -1,15 +1,16 @@
 #!/bin/sh
 # Give a battery name (Check the battery name from sys/class/power_supply/ e.g. BAT0 or BAT1 and pass it as an argument.
 
-case $BLOCK_BUTTON in
-    3) pgrep -x dunst >/dev/null && notify-send "🔋 Battery module" "🔋: discharging
-🛑: not charging
-♻: stagnant charge
-🔌: charging
-⚡: charged
-❗: battery very low!
-- Text color reflects charge left" ;;
-esac
+
+#case $BLOCK_BUTTON in
+#    3) pgrep -x dunst >/dev/null && notify-send "🔋 Battery module" "🔋: discharging
+#🛑: not charging
+#♻: stagnant charge
+#🔌: charging
+#⚡: charged
+#❗: battery very low!
+#- Text color reflects charge left" ;;
+#esac
 
 for battery in /sys/class/power_supply/BAT?
 do
