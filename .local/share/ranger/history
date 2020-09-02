@@ -1,11 +1,20 @@
 o
-
 vim 
 n
 wq
-w
-help
-rename 
 shell q %s
 trash
 delete
+z
+zh
+rename 
+w
+rename
+rename fonts.conf
+move .config/fontconfig/
+move
+move 
+
+h
+help
+cut 

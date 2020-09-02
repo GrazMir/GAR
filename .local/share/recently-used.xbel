@@ -243,4 +243,34 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/graz/Apps/dwmblocks/patches/dwmblocks-statuscmd-20200717-941f415.diff" added="2020-09-02T15:38:31Z" modified="2020-09-02T15:38:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-02T15:38:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/emoji.txt" added="2020-09-02T16:48:05Z" modified="2020-09-02T16:48:05Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-02T16:48:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Downloads/fonts.conf.txt" added="2020-09-02T19:45:42Z" modified="2020-09-02T19:45:42Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-02T19:45:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
