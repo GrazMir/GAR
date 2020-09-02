@@ -273,4 +273,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-00-regex-rules.diff" added="2020-09-02T21:07:40Z" modified="2020-09-02T21:07:40Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-02T21:07:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
