@@ -11,6 +11,10 @@ alias gs="git status"
 alias ga="git add"
 alias gp="git push -u origin master"
 
+# dmenu
+alias dmenu="dmenu -fn 'xft: Iosevka Term:size=20'"
+
+
 gc(){
     git commit -m $1
 }
