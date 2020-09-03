@@ -4,7 +4,6 @@ n
 wq
 shell q %s
 trash
-delete
 z
 zh
 rename 
@@ -18,3 +17,8 @@ move
 h
 help
 cut 
+open_with 
+search ranger
+search Down
+search Dow
+delete
