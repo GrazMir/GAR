@@ -10,8 +10,9 @@ case $BLOCK_BUTTON in
 " ;;
 esac
 
-[ "$(cat /sys/class/net/w*/operstate)" = 'down' ] && wifiicon="📡"
-
-[ ! -n "${wifiicon+var}" ] && wifiicon=$(grep "^\s*w" /proc/net/wireless | awk '{ print "📶", int($3 * 100 / 70) "%" }')
-
-printf "%s %s\n" "$wifiicon" "$(cat /sys/class/net/e*/operstate | sed "s/down/❎/;s/up/🌐/")"
+if [ "$(cat /sys/class/net/w*/operstate)" == "up" ]; then
+    wifiicon=$(grep "^\s*w" /proc/net/wireless | awk '{ print "", int($3 * 100 / 70) "%" }')
+elif [ "$(cat /sys/class/net/e*/operstate)" == "up" ]; then
+    wifiicon=""
+fi
+printf "%s" "$wifiicon" 

@@ -1,0 +1,26 @@
+#!/bin/sh
+
+for battery in /sys/class/power_supply/BAT?
+do
+	# Get its remaining capacity and charge status.
+	capacity=$(cat "$battery"/capacity 2>/dev/null) || break
+    status=$(cat "$battery"/status 2>/dev/null) || break
+
+    if [ "$status" == "Discharging" ]; then
+        ico=" " # battery-4
+        if [ "$capacity" -le 5 ]; then
+            ico=" " # battery-0
+        elif [ "$capacity" -le 25 ]; then
+            ico=" " # battery-1
+        elif [ "$capacity" -le 50 ]; then
+            ico=" " # battery-2
+        elif [ "$capacity" -le 75 ]; then
+            ico=" " # battery-3
+        fi
+    else
+        ico=" " # flash
+    fi
+
+    printf "%s%s%% " "$ico" "$capacity"
+
+done | sed 's/ *$//'

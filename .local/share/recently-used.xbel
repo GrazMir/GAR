@@ -293,4 +293,44 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-notitle-6.2.diff" added="2020-09-05T15:20:47Z" modified="2020-09-05T15:20:47Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-05T15:20:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-centeredmaster-6.1.diff" added="2020-09-05T21:47:12Z" modified="2020-09-05T21:47:12Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-05T21:47:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-actualfullscreen-20191112-cb3f58a.diff" added="2020-09-05T22:17:14Z" modified="2020-09-05T22:17:14Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-05T22:17:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-scratchpads-20200414-728d397b.diff" added="2020-09-05T22:31:51Z" modified="2020-09-05T22:31:51Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-05T22:31:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

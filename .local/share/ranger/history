@@ -6,14 +6,12 @@ shell q %s
 trash
 z
 zh
-rename 
 w
 rename
 rename fonts.conf
 move .config/fontconfig/
 move
 move 
-
 h
 help
 cut 
@@ -22,3 +20,7 @@ search ranger
 search Down
 search Dow
 delete
+rename 
+
+search Ammps
+search Apps
