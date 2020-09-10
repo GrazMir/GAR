@@ -71,7 +71,8 @@ nnoremap <C-l> <C-w>l
 " save read-only files
 command -nargs=0 Sudow w !sudo tee % >/dev/null
 
-
+" commands
+map <F1> :!chmod +x % >/dev/null
 
 " auto commands
 autocmd BufWritePost *.Xresources !xrdb <afile>

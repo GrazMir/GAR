@@ -1,0 +1,4 @@
+#! /bin/sh
+
+dmenu -fn "${DMENU_FONT}" -p "$1" <&- && echo 
+

@@ -1,7 +1,16 @@
 
+!!Xft.dpi: 144
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.rgba: rgb
+
+
+
 !! st terminal settings
-st.alpha:1
-st.font: xft:Iosevka Term:size=20:hinting=true
+*.alpha: 1
+*.font: xft:Iosevka Term:size=18:hinting=true
 !!st.font: xft:Liberation Mono:size=18:hinting=true
 !!st.font: Mono:size=18:hinting=true
-!! 
+
+

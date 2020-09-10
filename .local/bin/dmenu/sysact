@@ -1,0 +1,14 @@
+#! /bin/sh
+
+cmds="\
+lock,       betterlockscreen -l
+log out,    kill -9 -1
+hibernate,  ${hib:-sudo -A systemctl suspend-then-hibernate 1>/dev/null}
+reboot,     ${reb:-sudo -A reboot 1>/dev/null}
+shutdown,   ${shut:-sudo -A shutdown -h now 1>/dev/null}"
+
+choise="$(echo -e  "$cmds" | cut -d, -f1 | dmenu -fn "${DMENU_FONT}")" || exit 1
+
+run="$(echo -e "$cmds" | grep "^$choise" | cut -d, -f2)"
+
+`echo "$run" 2>/dev/null`

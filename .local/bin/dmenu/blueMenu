@@ -1,0 +1,24 @@
+#! /bin/zsh
+
+ConnectAirPods(){
+     bluetoothctl power on 1>/dev/null &&  bluetoothctl connect 14:87:6A:51:0F:AF 1>/dev/null
+}
+
+ConnectSenizer(){
+     bluetoothctl power on 1>/dev/null &&  bluetoothctl connect 00:16:94:27:DC:3D 1>/dev/null
+}
+
+DiscAndOff(){
+    bluetoothctl disconnect 1>/dev/null
+    bluetoothctl power off 1>/dev/null
+}
+
+choose=$(printf "AirPods\\nSenizer\\nDisconnect" | dmenu -fn ${DMENU_FONT} -i -p "BlueTooth:") 
+
+case "$choose" in
+    "AirPods") ConnectAirPods ;;
+    "Senizer") ConnectSenizer ;;
+    "Disconnect") DiscAndOff ;;
+esac
+
+
