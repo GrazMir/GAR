@@ -3,156 +3,6 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/graz/.screenlayout/main_display" added="2020-08-14T21:50:25Z" modified="2020-08-14T21:50:25Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/octet-stream"/>
-        <bookmark:applications>
-          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2020-08-14T21:50:25Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/Downloads/st-xresources-20180309-c5ba9c0.diff" added="2020-08-14T22:10:08Z" modified="2020-08-14T22:10:08Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-14T22:10:08Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/Downloads/st-alpha-0.8.2.diff" added="2020-08-14T23:02:12Z" modified="2020-08-14T23:02:12Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-14T23:02:12Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/Downloads/st-xresources-20200604-9ba7ecf.diff" added="2020-08-14T23:04:49Z" modified="2020-08-14T23:04:49Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-14T23:04:49Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/st-0.8.4/patches/st-font2-20190416-ba72400.diff" added="2020-08-16T12:28:56Z" modified="2020-08-16T12:28:56Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-16T12:28:56Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/st-0.8.4/patches/st-scrollback-20200419-72e3f6c.diff" added="2020-08-16T13:09:25Z" modified="2020-08-16T13:09:25Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-16T13:09:25Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/st-0.8.4/patches/st-scrollback-mouse-20191024-a2c479c.diff" added="2020-08-16T13:11:26Z" modified="2020-08-16T13:11:26Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-16T13:11:26Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/st-0.8.4/patches/st-scrollback-mouse-altscreen-20200416-5703aa0.diff" added="2020-08-16T13:13:43Z" modified="2020-08-16T13:13:43Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-16T13:13:43Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/st-0.8.4/patches/st-scrollback-mouse-increment-0.8.2.diff" added="2020-08-16T13:16:13Z" modified="2020-08-16T13:16:13Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-16T13:16:13Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/.screenlayout/dual_display" added="2020-08-18T08:05:53Z" modified="2020-08-18T08:05:53Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/octet-stream"/>
-        <bookmark:applications>
-          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2020-08-18T08:05:53Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/Pictures/Backgrounds/ultraviolet.jpg" added="2020-08-19T18:16:16Z" modified="2020-08-19T18:16:16Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/jpeg"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-19T18:16:16Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/Documents/Books/awk_manual.pdf" added="2020-08-19T19:02:02Z" modified="2020-08-19T19:02:02Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/pdf"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-19T19:02:02Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-fullgaps-20200508-7b77734.diff" added="2020-08-20T15:49:39Z" modified="2020-08-20T21:42:20Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-20T21:42:20Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-alpha-20180613-b69c870.diff" added="2020-08-20T21:07:38Z" modified="2020-08-20T21:42:46Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-20T21:42:46Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/graz/Apps/dwm/patches/dwm-xresources-6.2.diff" added="2020-08-20T21:24:37Z" modified="2020-08-20T21:41:54Z" visited="1969-12-31T23:59:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-patch"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-08-20T21:41:54Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/graz/Pictures/Backgrounds/woods1.jpg" added="2020-08-28T14:20:39Z" modified="2020-08-28T14:20:39Z" visited="1969-12-31T23:59:59Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -359,6 +209,197 @@
         <mime:mime-type type="text/x-patch"/>
         <bookmark:applications>
           <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-06T18:19:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Downloads/5.14.23-20200912-2220.unf" added="2020-09-12T21:26:39Z" modified="2020-09-12T21:32:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-nes-rom"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-12T21:32:45Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/USG_Front.png" added="2020-09-13T14:08:00Z" modified="2020-09-13T14:08:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-13T14:08:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/US-8_Front.png" added="2020-09-13T14:10:04Z" modified="2020-09-13T14:10:04Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-13T14:10:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/UAP-AC-PRO_Front_Angle.png" added="2020-09-13T14:11:03Z" modified="2020-09-13T14:14:11Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-13T14:14:11Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/US-8_Front_Angle.png" added="2020-09-13T14:11:35Z" modified="2020-09-13T14:13:41Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-13T14:13:41Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/USG_Right_Angle.png" added="2020-09-13T14:12:20Z" modified="2020-09-13T14:13:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-13T14:13:21Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/UCK-G2_Top_Angle.png" added="2020-09-13T21:53:46Z" modified="2020-09-13T21:54:10Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-13T21:54:10Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/ts-251plus-1.webp" added="2020-09-13T21:58:40Z" modified="2020-09-13T21:58:58Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-13T21:58:58Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/airportExtreme.jpg" added="2020-09-13T22:01:09Z" modified="2020-09-13T22:01:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-13T22:01:27Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/my-cloud-pro-series-pr4100-Hero1.png.thumb.319.319.png" added="2020-09-13T22:06:29Z" modified="2020-09-13T22:06:49Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-13T22:06:49Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/107645_tv_512x512.png" added="2020-09-13T22:09:03Z" modified="2020-09-16T19:06:57.295401Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-16T19:06:57.295397Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Documents/Unifi%20Icons/vmware-icon-2.jpg" added="2020-09-13T22:11:04Z" modified="2020-09-13T22:11:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-13T22:11:30Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Downloads/alpine-virt-3.12.0-x86_64.iso" added="2020-09-14T20:59:42Z" modified="2020-09-21T05:19:44.201786Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-cd-image"/>
+        <bookmark:applications>
+          <bookmark:application name="vmrc" exec="&apos;vmrc %u&apos;" modified="2020-09-21T05:19:44.201784Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Downloads/blackarch-linux-netinst-2020.06.02-x86_64.iso" added="2020-09-15T21:19:54.402353Z" modified="2020-09-18T21:58:30.286009Z" visited="2020-09-15T21:19:54.402354Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-cd-image"/>
+        <bookmark:applications>
+          <bookmark:application name="vmrc" exec="&apos;vmrc %u&apos;" modified="2020-09-15T21:25:58.968403Z" count="2"/>
+          <bookmark:application name="balena-etcher-electron.bin" exec="&apos;balena-etcher-electron.bin %u&apos;" modified="2020-09-18T21:58:30.286003Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Downloads/PlexMediaServer-1.20.1.3252-a78fef9a9-x86_64.qpkg" added="2020-09-16T19:07:49.174883Z" modified="2020-09-16T19:07:49.174895Z" visited="2020-09-16T19:07:49.174884Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2020-09-16T19:07:49.174888Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Downloads/2020-08-20-raspios-buster-armhf-lite.img" added="2020-09-18T21:53:34.573514Z" modified="2020-09-18T21:55:10.839193Z" visited="2020-09-18T21:53:34.573515Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-raw-disk-image"/>
+        <bookmark:applications>
+          <bookmark:application name="balena-etcher-electron.bin" exec="&apos;balena-etcher-electron.bin %u&apos;" modified="2020-09-18T21:55:10.839190Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Downloads/2020-08-20-raspios-buster-armhf-lite.zip" added="2020-09-18T21:57:17.651074Z" modified="2020-09-18T22:32:29.408610Z" visited="2020-09-18T21:57:17.651075Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="balena-etcher-electron.bin" exec="&apos;balena-etcher-electron.bin %u&apos;" modified="2020-09-18T22:32:29.408603Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Downloads/RU1FQUFQREFnZ3JlZ2F0aW9uR3JvdXAuXExWREkzLVQzLVAtQkFTMDI-.ica" added="2020-09-21T15:46:17.216074Z" modified="2020-09-22T09:04:52.227761Z" visited="2020-09-21T15:46:17.216076Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ica"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2020-09-22T09:04:52.227754Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/graz/Downloads/yubikey-personalization-gui-3.1.25.tar.gz" added="2020-09-22T09:21:38.762626Z" modified="2020-09-22T09:21:38.762640Z" visited="2020-09-22T09:21:38.762628Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2020-09-22T09:21:38.762633Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

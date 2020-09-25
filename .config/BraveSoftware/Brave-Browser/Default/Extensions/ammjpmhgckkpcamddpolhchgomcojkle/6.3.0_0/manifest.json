@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "index.html"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Decentralized signature, identity and authentication system.",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlW+mt71CrVxWrBuGiLPGen5QPlzvHSOrbCayGdi2JidJb+had691xssDHqOih5HcrgKJPjNSp9zrUjmV1mCyHQJLsSJmDyMJn90dfInlnqRdh+Nz/Uy7cmqrFqO8vGdApVVxMeyR37RF97zy/AQo5Gq7wrmtR7l8ddNUsLuUIFV3/51N1EUIfwJFPVJ8z7E3GNKVO5Ho4fkY5o1SWJdk8EOMJWOFng9Kjuh1MtXtyr0w57KATPbBhpIsyHntMJvl9NNx0iOqYktjUyXfbNtLoGgkI1dOWXi5Mj4vU74w+jcdCIao2cJNnUBgABHAyoTGBeK2ERhkOa5KkErszVojVQIDAQAB",
+   "manifest_version": 2,
+   "name": "Scatter",
+   "permissions": [ "storage", "unlimitedStorage", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.3.0",
+   "web_accessible_resources": [ "inject.js" ]
+}

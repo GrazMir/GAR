@@ -1,3 +1,7 @@
+" set up color scheme and transparent bg
+colorscheme Tomorrow-Night-Bright
+autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
+
 " Set Line numbes
 set number
 set relativenumber
@@ -23,6 +27,7 @@ set smartcase
 set incsearch
 
 " Set text encoding and other stuff 
+set t_Co=256
 set encoding=utf-8
 set linebreak
 

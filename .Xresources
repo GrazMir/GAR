@@ -8,8 +8,8 @@ Xft.rgba: rgb
 
 
 !! st terminal settings
-*.alpha: 1
-*.font: xft:Iosevka Term:size=18:hinting=true
+st.alpha: 1
+st.font: xft:Iosevka Term:size=18:hinting=true
 !!st.font: xft:Liberation Mono:size=18:hinting=true
 !!st.font: Mono:size=18:hinting=true
 

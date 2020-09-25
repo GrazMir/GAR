@@ -1,0 +1,53 @@
+{
+   "author": "Michel Gutierrez",
+   "background": {
+      "persistent": true,
+      "scripts": [ "background/main.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "40": "content/images/icon-40.png"
+      },
+      "default_popup": "content/popup.html?panel=main",
+      "default_title": "Video DownloadHelper"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Alt+Up",
+            "mac": "Ctrl+Shift+Up"
+         }
+      },
+      "default-action": {
+         "description": "Execute default action",
+         "suggested_key": {
+            "default": "Alt+Down",
+            "mac": "Ctrl+Shift+Down"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "content/dwhelper-script.js" ],
+      "matches": [ "*://*.downloadhelper.net/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en_US",
+   "description": "Download Videos from the Web",
+   "icons": {
+      "128": "content/images/icon-128.png",
+      "32": "content/images/icon-32.png",
+      "40": "content/images/icon-40.png",
+      "48": "content/images/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqm/Cdcx4ikjVJbadUGpwrgJXdkc6Is8smuMiuAQbzgOg0cETVxuAY55UxgCxsh3lu4Os0RFK11bMBhu79Jbwv8tyml6mFGLLncLU2dFPZwnZWnIt5U+KC+uOvjryOacIPLxS/PeF2sXScNd0QJg/wTyl5WIizFtbcM3ZmFDFsj39FuUoH/OhO1Ux1/4Xn6dbSRb5F6qgkS2CU9ptTPQz0NJNaEmbL7vnWQkl2C8N4SjlDpRf/lC5r72Ow16hmbNmCGRhbxjPF0Dm+EO2uyF6dBw4n9V8BjBXQ7AdL5J3k4dXJk/oIOD2GQJsGyHK6TobNPPjy6W7bpPBtSfesIXS+wIDAQAB",
+   "manifest_version": 2,
+   "name": "Video DownloadHelper",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "content/settings.html?panel=settings"
+   },
+   "permissions": [ "tabs", "contextMenus", "nativeMessaging", "\u003Call_urls>", "webRequest", "webRequestBlocking", "downloads", "clipboardWrite", "webNavigation", "notifications", "storage", "cookies", "contextMenus", "proxy" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.3.9.0"
+}

@@ -10,7 +10,7 @@ setup(){
 }
 
 screens=$(xrandr | awk '/ connected/ {print $1}')
-chosen=$(printf "%s\\nSet Up" "$screens" | dmenu ${DMENU_FONT}  -i -p "Select Display:") &&
+chosen=$(printf "%s\\nSet Up" "$screens" | dmenu -fn ${DMENU_FONT}  -i -p "Select Display:") &&
 case "$chosen" in
     "eDP1") sh /home/graz/.screenlayout/main_display.sh;;
     "HDMI1") sh /home/graz/.screenlayout/dual_display.sh;;

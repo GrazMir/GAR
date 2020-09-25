@@ -1,0 +1,5 @@
+2020/09/21-22:03:07.426 298835 Reusing MANIFEST /home/graz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_10.10.20.105_8080.indexeddb.leveldb/MANIFEST-000001
+2020/09/22-11:06:04.862 30e00c Level-0 table #5: started
+2020/09/22-11:06:04.876 30e00c Level-0 table #5: 849733 bytes OK
+2020/09/22-11:06:04.878 30e00c Delete type=0 #3
+2020/09/22-11:06:04.878 30e00c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

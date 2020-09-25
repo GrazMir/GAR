@@ -1,0 +1,8 @@
+2020/09/21-17:07:13.337 1a1a8f Reusing MANIFEST /home/graz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_socifi-doc.atlassian.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/21-17:07:13.337 1a1a8f Recovering log #7
+2020/09/21-17:07:13.337 1a1a8f Reusing old log /home/graz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_socifi-doc.atlassian.net_0.indexeddb.leveldb/000007.log 
+2020/09/21-17:07:45.349 1a12da Level-0 table #11: started
+2020/09/21-17:07:45.349 1a12da Level-0 table #11: 0 bytes OK
+2020/09/21-17:07:45.356 1a12da Delete type=0 #7
+2020/09/21-17:07:45.356 1a12da Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/21-17:07:45.356 1a12da Manual compaction at level-1 from (begin) .. (end); will stop at (end)

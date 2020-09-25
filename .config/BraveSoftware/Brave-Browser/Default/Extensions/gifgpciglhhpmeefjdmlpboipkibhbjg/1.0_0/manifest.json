@@ -1,0 +1,12 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Ignores X-Frame-Options to allow iFrames for all web pages.",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJDCC2VuAN7BMGo+oY3YAUPaSX0y3s9q9eXjn/0yanoPfK0zqqUNuX0C40yLiWnnKIhNhSlPYhtiE0yNTfobY77uRKpOKwmWJkBU51HYDX8VYAc3pRKUvmv+uj8miaR8NIzUr7+Gni9jO6M3wjJSwDI+oYz/eVASxIwz+ZEXvU9PXDwpp77NfizM1ex2PJ+BM0w2/EJ4KcP+ymojpBHBt9IAg0ik/rduka374yUtP8n7uLP2LpeWF0+1IwWHE5Gvx7YpROvK+fIE1QyIRHweiFXKnOa1EiZx/tTTIcs2egwKw5s7NTw1pf24OUhJJDi/+rm8dDsH9imjlyVD+V3DmwIDAQAB",
+   "manifest_version": 2,
+   "name": "iFrame Allow",
+   "permissions": [ "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

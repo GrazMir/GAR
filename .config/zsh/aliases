@@ -26,3 +26,7 @@ gacp(){
 brkbd(){
     brightnessctl --device='tpacpi::kbd_backlight' set $1 2&>/dev/null
 }
+
+ssht(){
+    ssh -t $@ "tmux attach || tmux new"
+}

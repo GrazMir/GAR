@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "resources/icon_032.png"
+   },
+   "description": "A Simple tool to help test WebSocket Service",
+   "icons": {
+      "128": "resources/icon_128.png",
+      "16": "resources/icon_032.png",
+      "32": "resources/icon_032.png",
+      "48": "resources/icon_048.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhUhRclJPpXE1YozTV5etsZmElartlqzBa6DKPUtE+TpyiUENYM3YScDLjCHTwk/kyPDDs08vvOMS5ioaP2r+lNbxrU27qszmTnNtiN+qNVw3bid87lYdqKDd9/STvrFw42YsjswmpHA/hXzcZ+2i3wWtkVo/QS3x+FetBetIlndq5YOnUCZTqoLUgq1FjOVr925sNAs6tb6df5Mxmqph2vQkNsAS6TsqwGrgLdkdM8NKaVami4d48e7PyyWa4xrXWBXLDUvvdqXUoMz/HVCKtnJLrnPyX5ifgTluWUqaEfPxOH2C8nEXJDP6dzf5WPCv5hDkjWVQkUo9axoU+OJuuQIDAQAB",
+   "manifest_version": 2,
+   "name": "WebSocket Test Client",
+   "options_page": "index.html",
+   "permissions": [ "tabs" ],
+   "short_name": "wstest",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.0"
+}
