@@ -51,3 +51,6 @@ done
 
 $HOME/.local/bin/autodisplay
 dwmblocks &
+
+setxkbmap -option caps:ctrl
+

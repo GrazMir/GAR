@@ -78,7 +78,15 @@ command -nargs=0 Sudow w !sudo tee % >/dev/null
 
 " commands
 map <F1> :!chmod +x % >/dev/null
+map <leader>p :execute "!zathura . expand('%:t:r') . '.pdf' > /dev/null 2>&1"
 
 " auto commands
+let b:pdfname=expand('%:t:r') . '.pdf'
+
 autocmd BufWritePost *.Xresources !xrdb <afile>
 autocmd BufWritePost *config.def.h !sudo cp <afile> config.h && sudo make clean install
+autocmd BufWritePost *.tex !pdflatex <afile>
+
+
+
+""autocmd BufWritePost *.tex execute "!pdflatex % > /dev/null" | execute "!zathura . expand('%:t:r') . '.pdf' > /dev/null 2>&1" 

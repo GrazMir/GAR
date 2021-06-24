@@ -54,3 +54,9 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+function mkrepo(){
+        echo "Creating Repository $1 on Github .. "
+        curl -H "Authorization: token $GITTOKEN" --data '{"name":"'"$1"'"}' https://api.github.com/user/repos
+        echo "Adding remote origin ..."
+        git remote add origin git@github.com:LordMero/$1.git
+}
